@@ -1,0 +1,40 @@
+type: GenericSmelter
+name: Hydrofarma zarodników
+description: Dzięki przekaźnikowi jest w stanie przewidzieć pogodę. Używa mikroczipów do zapewnienia optimum dla zarodników. Ekstremalnie efektowne. Zalecane zasilanie pompą termalną.
+health: 800
+size: 3
+updateEffect: sapped
+craftTime: 10
+hasItems: 10
+hasLiquid: 20
+consumes: {
+  power: 2
+  items: {
+    items: [
+      butelkaw/2
+    ]
+  }
+}
+category: production
+requirements: [
+		copper/100
+		titanium/100
+		plastanium/300
+		mikroczip/4
+		nanoczesci/40
+		przekaznik/1
+]
+research: {
+  parent: napelniaczw
+  requirements: [
+    copper/1000
+    titanium/1000
+    plastanium/3000
+    mikroczip/40
+    nanoczesci/400
+    przekaznik/10
+  ]
+}
+ambientSound: techloop
+ambientSoundVolume: 0.5
+outputItem: spore-pod/3
