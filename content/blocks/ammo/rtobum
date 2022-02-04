@@ -1,0 +1,40 @@
+type: GenericSmelter
+name: Monter rakiet torowo-burzących
+description: Montuje rakiety dostosowane specjalnie dla NWR. 
+health: 700
+size: 2
+updateEffect: lava
+craftTime: 180
+hasItems: 16
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      lead/8
+      thorium/3
+      pyratite/2
+      blast-compound/3
+    ]
+  }
+}
+category: turret
+requirements: [
+		copper/120
+		graphite/40
+		titanium/60
+		silicon/40
+		plastanium/60
+]
+research: {
+  parent: nwr
+  requirements: [
+    copper/1200
+    graphite/400
+    titanium/600
+    silicon/400
+    plastanium/600
+  ]
+}
+ambientSound: drill
+ambientSoundVolume: 2
+outputItem: rtobu/4
