@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: Wytapiacz butelek
+description: Wytapia butelki z metaszkła i używa tytanu do ich wzmocnienia. Tekstura: Stalker
+health: 300
+size: 1
+updateEffect: hitBulletSmall
+craftTime: 300
+hasItems: 10
+consumes: {
+  power: 2
+  items: {
+    items: [
+      metaglass/4
+      titanium/2
+    ]
+  }
+}
+category: crafting
+requirements: [
+		copper/50
+		lead/10
+		titanium/15
+]
+research: {
+  parent: core-shard
+  requirements: [
+    copper/500
+    lead/100
+    titanium/150
+  ]
+}
+ambientSound: drill
+ambientSoundVolume: 1
+outputItem: butelka/2

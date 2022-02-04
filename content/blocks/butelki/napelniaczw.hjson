@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Napełniacz: woda
+description: Napełnia butelki wodą. Tekstura: Stalker
+health: 300
+size: 1
+updateEffect: pulverizeMedium
+craftTime: 60
+hasItems: 2
+hasLiquid: 20
+consumes: {
+  power: 0.3 
+  liquid: water/0.25
+  items: {
+    items: [
+      butelka/1
+    ]
+  }
+}
+category: liquid
+requirements: [
+		copper/10
+		lead/15
+		titanium/5
+]
+research: {
+  parent: wytapiacz
+  requirements: [
+    copper/100
+    lead/150
+    titanium/50
+  ]
+}
+ambientSound: conveyor
+ambientSoundVolume: 0.5
+outputItem: butelkaw/1

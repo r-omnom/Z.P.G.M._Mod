@@ -1,0 +1,36 @@
+name: Odzyskiwacz ropy
+description: Odzyskuje ropę z butelek. Tekstura: Stalker
+type: Fracker
+itemCapacity: 10
+health: 300
+size: 1
+liquidCapacity: 90
+rotateSpeed: 0
+hasPower: true
+updateEffect: hitLancer
+updateEffectChance: 0.125
+pumpAmount: 0.25
+result: oil
+itemUseTime: 60
+consumes: {
+  power: 0.3
+  items: {
+    items: [
+      butelkar/1
+    ]
+  }
+}
+requirements: [
+  copper/15
+  lead/15
+  titanium/10
+]
+category: liquid
+research: {
+  parent: napelniaczr
+  requirements: [
+    copper/150
+    lead/150
+    titanium/100
+  ]
+}
