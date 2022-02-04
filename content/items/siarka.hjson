@@ -1,0 +1,11 @@
+name: Siarka
+description: Organiczna siarka, odzyskana z zarodników. Przydatna w przetwarzaniu nitrogliceryny. Pomysł: Kamil
+color: 5c4797
+flammability: 0.2
+research: {
+  parent: butelkaz
+  requirements: [
+    spore-pod/40
+    butelkaz/10 
+  ]
+}

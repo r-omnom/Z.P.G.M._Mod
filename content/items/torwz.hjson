@@ -1,0 +1,11 @@
+name: Wzbogacony tor
+description: Produkt główny reakcji wzbogacania, cenny, mocno radioaktywny. Zalecana ostrożność.
+color: c41b65
+radioactivity: 2
+explosiveness: 0.5
+research: {
+  parent: torzu
+  requirements: [
+    thorium/15000 
+  ]
+}

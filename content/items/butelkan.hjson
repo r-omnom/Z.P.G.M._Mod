@@ -1,0 +1,12 @@
+name: Butelka z nitrogliceryną
+description: pojemnik z nitrogliceryną, ekstremalnie wybuchowy, bardzo  niestabilny. Zalecana maksymalna ostrożność.
+color: 94ffff
+explosiveness: 50
+research: {
+  parent: siarka
+  requirements: [
+    butelkaw/100
+    spore-pod/150
+    siarka/100
+  ]
+}

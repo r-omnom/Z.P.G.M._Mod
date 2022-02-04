@@ -1,0 +1,9 @@
+name: Gwiazdka
+description: Specjalna gwiazdka, możliwa do wytworzenia tylko podczas rozmaitych wydarzeń.
+color: 0026ff
+research: {
+  parent: core-shard
+  requirements: [
+    copper/1
+  ]
+}

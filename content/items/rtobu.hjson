@@ -1,0 +1,13 @@
+name: Rakieta torowo-burząca
+description: amunicja dostosowana specjalnie dla NWR. 
+color: 6b6b6b
+explosiveness: 1
+research: {
+  parent: butelkan
+  requirements: [
+    lead/800 
+    thorium/300
+    pyratite/200
+    blast-compound/300
+  ]
+}

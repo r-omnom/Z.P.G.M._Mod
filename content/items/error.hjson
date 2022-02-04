@@ -1,0 +1,9 @@
+name: ERROR
+description: Błąd w Matrixie, zignorować
+color: ffffff
+research: {
+  parent: akcer
+  requirements: [
+    copper/1
+  ]
+}

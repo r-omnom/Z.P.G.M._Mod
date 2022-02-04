@@ -1,0 +1,11 @@
+name: Zubożony tor
+description: Produkt uboczny reakcji wzbogacania, jedyna przyszłość to zużycie w generatorze RTG.
+color: fac5dc
+radioactivity: 0.3
+explosiveness: 0.1
+research: {
+  parent: butelka
+  requirements: [
+    thorium/1000 
+  ]
+}

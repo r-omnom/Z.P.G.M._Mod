@@ -1,0 +1,9 @@
+name: Butelka
+description: Butelka do przechowywania cieczy.
+color: 90a7b0
+research: {
+  parent: wytapiacz
+  requirements: [
+    metaglass/100
+  ]
+}

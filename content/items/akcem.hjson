@@ -1,0 +1,13 @@
+name: Akcelerator magnetyczny
+description: Potrafi wytworzyć silne pole magnetyczne, przydatny w ciężkich warunkach.
+color: 0026ff
+research: {
+  parent: przekaznik
+  requirements: [
+    copper/2000
+    titanium/500
+    elen/200
+    mikroczip/100
+    przekaznik/100
+  ]
+}

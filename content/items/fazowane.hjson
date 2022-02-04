@@ -1,0 +1,12 @@
+name: Silnie fazowane płótno
+description: Wzmocnione i przetworzone włókno fazowe, o kwantowych właściwościach. 
+color: cc8f1d
+radioactivity: 1
+charge: 0.4
+research: {
+  parent: elen
+  requirements: [
+    phase-fabric/500
+    torwz/250 
+  ]
+}

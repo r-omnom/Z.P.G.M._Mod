@@ -1,0 +1,9 @@
+name: Butelka z żużlem
+description: Łatwy do przenoszenia pojemnik z żużlem, można rozładować.
+color: f2ba00
+research: {
+  parent: butelkaw
+  requirements: [
+    butelka/15
+  ]
+}

@@ -1,0 +1,9 @@
+name: Błędny akcelerator
+description: Stabilna, łatwo do uwolnienia i kontroli błędna energia, przydatna w ekstremalnie drogiej technologii.
+color: ffffff
+research: {
+  parent: error
+  requirements: [
+     copper/1
+  ]
+}

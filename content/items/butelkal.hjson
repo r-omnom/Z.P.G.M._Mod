@@ -1,0 +1,9 @@
+name: Butelka z lodocieczą
+description: Łatwy do przenoszenia pojemnik z lodocieczą, można rozładować.
+color: 4adbff
+research: {
+  parent: butelkaw
+  requirements: [
+    butelka/15
+  ]
+}

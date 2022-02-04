@@ -1,0 +1,14 @@
+name: Chemikalia
+description: Różne chemikalia, niebezpieczne, trujące, żrące, jak wszystkie inne.
+color: 998500
+explosiveness: 0.1
+research: {
+  parent: baterian
+  requirements: [
+    baterian/100
+    butelkar/300
+    butelkaw/400
+    butelkaz/200
+    siarka/150
+  ]
+}

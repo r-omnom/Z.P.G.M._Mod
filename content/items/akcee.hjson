@@ -1,0 +1,14 @@
+name: Akcelerator elektryczny
+description: Bardzo przydatny w dużych konstrukcjach i jednostkach
+color: fce026
+research: {
+  parent: elen
+  requirements: [
+    copper/1000
+    titanium/500
+    silicon/300
+    baterian/1200
+    elen/500
+    mikroczip/200
+  ]
+}

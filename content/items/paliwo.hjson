@@ -1,0 +1,12 @@
+name: Paliwo jądrowe
+description: Odpowiednio zmieszany tor z uranem, optymalna mieszanka do dalszego przetworu jądrowego.
+color: ffffff
+radioactivity: 8
+explosiveness: 0.5
+research: {
+  parent: uranwz
+  requirements: [
+    torwz/900 
+    uranwz/1600
+  ]
+}

@@ -1,0 +1,11 @@
+name: Zubożony uran
+description: Produkt uboczny reakcji wzbogacania, bezużyteczny. Po co w ogóle to istnieje?
+color: 6b6b6b
+radioactivity: 1.5
+explosiveness: 0.3
+research: {
+  parent: uran
+  requirements: [
+    uran/100 
+  ]
+}

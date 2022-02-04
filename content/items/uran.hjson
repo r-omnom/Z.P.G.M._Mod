@@ -1,0 +1,11 @@
+name: Uran
+description: Sztucznie wytworzony uran, w postaci naturalnej niedostępny na Serpulo
+color: aaafbf
+radioactivity: 5
+explosiveness: 1.2
+research: {
+  parent: torwz
+  requirements: [
+    torwz/300 
+  ]
+}

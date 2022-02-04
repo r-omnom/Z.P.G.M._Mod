@@ -1,0 +1,15 @@
+name: Przekaźnik długodystansowy
+description: Antena kompatybilna z procesorem, zdolna do przesyłania niesamowitych ilości danych, bardzo użyteczna.
+color: 00ffff
+charge: 0.5
+research: {
+  parent: mikroczip
+  requirements: [
+    copper/50
+    titanium/200
+    silicon/150
+    baterian/40
+    mikroczip/20
+    nanoczesci/70
+  ]
+}

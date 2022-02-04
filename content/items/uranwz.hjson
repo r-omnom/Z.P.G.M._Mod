@@ -1,0 +1,11 @@
+name: Wzbogacony uran
+description: Produkt główny reakcji wzbogacania, cenniejszy niż tor, ekstremalnie radioaktywny. Zalecana duża ostrożność.
+color: ffffff
+radioactivity: 8
+explosiveness: 1.7
+research: {
+  parent: uranzu
+  requirements: [
+    uran/500
+  ]
+}

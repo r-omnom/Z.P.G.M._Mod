@@ -1,0 +1,13 @@
+name: Bateria
+description: Bateria do przechowywania prądu. Mało pojemna, do naładowania.
+color: 5c4797
+charge: 0.03
+research: {
+  parent: butelka
+  requirements: [
+    copper/50
+    lead/100
+    titanium/20
+    silicon/10 
+  ]
+}

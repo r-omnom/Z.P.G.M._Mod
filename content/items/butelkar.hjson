@@ -1,0 +1,10 @@
+name: Butelka z ropą
+description: Łatwy do przenoszenia pojemnik z ropą, można rozładować.
+color: 000000
+explosiveness: 1
+research: {
+  parent: butelkaw
+  requirements: [
+    butelka/15
+  ]
+}

@@ -1,0 +1,12 @@
+name: Lekko radioaktywna ciecz
+description: Skroplony azot wymieszany z torem, zaobserwowana zmiany koloru zarodników oraz ich struktury genetycznej.
+temperature: -0.5
+viscosity: 1
+heatCapacity: 0.1
+color: 9dcfb7
+research: {
+  parent: azotn
+  requirements: [
+    thorium/1000
+  ]
+}

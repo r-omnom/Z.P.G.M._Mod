@@ -1,0 +1,12 @@
+name: Mocno radioaktywna ciecz
+description: Skroplony azot wymieszany z uranem, widoczne "grupowanie się" zarodników i przyciąganie elektrostatyczne. Zalecane dokładniejsze badania
+temperature: -0.5
+viscosity: 1
+heatCapacity: 0.05
+color: 0066cd
+research: {
+  parent: lrciecz
+  requirements: [
+    uran/1000
+  ]
+}

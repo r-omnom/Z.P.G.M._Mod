@@ -1,0 +1,12 @@
+name: Ciekły azot
+description: Skroplony azot, bardzo zimny. Barwę zawdzięcza zarodnikom. Znakomite chłodziwo. Pomysł: Not_Bot
+temperature: -2
+viscosity: 0
+heatCapacity: 2
+color: ba9dcf
+research: {
+  parent: butelkal
+  requirements: [
+    butelkal/10
+  ]
+}

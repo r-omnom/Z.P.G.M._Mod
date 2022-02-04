@@ -1,0 +1,11 @@
+name: Naładowane elektrum
+description: Elektrum naładowane gigantycznymi ilościami prądu, stabilne, ale niefektywne źródło prądu, w niewielkich ilościach używane w technologii jądrowej i zaawansowannych konstrukcjach.
+color: fce026
+explosiveness: 2
+charge: 75
+research: {
+  parent: baterian
+  requirements: [
+    thorium/15000 
+  ]
+}

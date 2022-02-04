@@ -1,0 +1,13 @@
+name: Akcelerator radiacyjny
+description: Potrafi "skompresować" promieniowanie, przydatny w dalszych przerobach jądrowych i błędnej technologii.
+color: c41b65
+research: {
+  parent: uranwz
+  requirements: [
+    lead/3000
+    fazowane/500
+    mikroczip/300
+    torwz/1000
+    uranwz/400
+  ]
+}

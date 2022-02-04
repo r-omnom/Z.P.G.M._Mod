@@ -1,0 +1,9 @@
+name: Butelka z wodą
+description: Łatwy do przenoszenia pojemnik z wodą, można rozładować.
+color: 3430da
+research: {
+  parent: butelka
+  requirements: [
+    butelka/15
+  ]
+}

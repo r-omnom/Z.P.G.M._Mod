@@ -1,0 +1,14 @@
+name: Naładowana bateria
+description: Zawiera 1000 jednostek prądu. Podczas szybkiego rozładowywania lekko niestabilna.
+color: 8f6eeb
+explosiveness: 0.5
+charge: 0.5
+research: {
+  parent: bateria
+  requirements: [
+    copper/50
+    lead/100
+    titanium/20
+    silicon/10
+  ]
+}

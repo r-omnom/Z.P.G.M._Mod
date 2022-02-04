@@ -1,0 +1,14 @@
+name: Mikroczip
+description: Złożony czip, zdolny do wykonywania wielu operacji naraz i kompatybilny z jemu podobnymi urządzeniami.
+color: 4cb55a
+research: {
+  parent: nanoczesci
+  requirements: [
+    copper/150
+    lead/40
+    graphite/80
+    nanoczesci/40
+    silicon/200
+    butelkal/120
+  ]
+}

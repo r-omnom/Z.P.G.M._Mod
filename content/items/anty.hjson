@@ -1,0 +1,10 @@
+name: Pojemnik z antymaterią
+description: Dobrze zabezpieczona, choć ekstremalnie wybuchowa antymateria.
+color: 000000
+explosiveness: 650
+research: {
+  parent: akceb
+  requirements: [
+    akceb/1000
+  ]
+}
