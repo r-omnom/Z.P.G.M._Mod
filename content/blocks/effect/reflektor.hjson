@@ -1,0 +1,26 @@
+type: LightBlock
+name: Reflektor
+size: 1
+health: 100
+description: Ulepszone źródło światła. Tekstura i pomysł: Stalker
+consumes:{
+//power: 0.16
+}
+requirements: [
+  copper/50
+  lead/65
+  metaglass/55
+  titanium/10
+]
+brightness: 0.75
+radius: 180
+category: effect
+research: {
+  parent: wytapiacz
+  requirements: [
+    copper/500
+    lead/650
+    metaglass/550
+    titanium/100
+  ]
+}

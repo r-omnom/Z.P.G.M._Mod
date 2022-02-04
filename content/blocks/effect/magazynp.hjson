@@ -1,0 +1,23 @@
+name: Piętrowy magazyn
+description: Piętrowy tylko z nazwy, rzeczywiście jego pojemność bierze się z optymalizacji miejsca dzięki mikroprocesorom. Niestety nie zawiera dużej ilości punktów życia.
+type: StorageBlock
+itemCapacity: 5000
+hasItems: true
+health: 400
+size: 4
+requirements: [
+  copper/200
+  titanium/800
+  plastanium/800
+  mikroczip/12
+]
+category: "effect"
+research: {
+  parent: mikroprzetwarzacz
+  requirements: [
+    copper/2000
+    titanium/8000
+    plastanium/8000
+    mikroczip/120
+  ]
+}

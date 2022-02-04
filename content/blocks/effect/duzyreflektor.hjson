@@ -1,0 +1,28 @@
+type: LightBlock
+name: Duży reflektor
+size: 2
+health: 350
+description: O wiele większy zasięg od mniejszego. Tekstura i pomysł: Stalker
+consumes:{
+//power: 1.5
+}
+requirements: [
+  copper/150
+  lead/200
+  metaglass/100
+  titanium/75
+  silicon/50
+]
+brightness: 2
+radius: 480
+category: effect
+research: {
+  parent: reflektor
+  requirements: [
+    copper/1500
+    lead/2000
+    metaglass/1000
+    titanium/750
+    silicon/500
+  ]
+}
