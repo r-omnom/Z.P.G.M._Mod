@@ -1,0 +1,27 @@
+type: ItemBridge
+description: Zaawansowana boja, przenosi przedmioty zasadą mostu transportowego.
+name: Boja transportowa
+health: 250
+requirements: [
+		metaglass/2
+		titanium/2
+		plastanium/2
+		nanoczesci/1
+]
+range: 2
+transportTime: 10
+hasPower: false
+
+requiresWater: true
+placeableLiquid: true
+
+category: distribution
+research: {
+  parent: nanoskladacz
+  requirements: [
+    metaglass/20
+    titanium/20
+    plastanium/20
+    nanoczesci/10
+  ]
+}
