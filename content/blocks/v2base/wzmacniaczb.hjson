@@ -1,0 +1,43 @@
+type: GenericCrafter
+name: Błędny wzmacniacz
+description: Stabilizuje błędne oddziaływania, bardzo czasochłonny proces.
+drawer: DrawAnimation
+health: 3000
+size: 6
+updateEffect: sapped
+craftTime: 7200
+hasItems: true
+hasLiquids: true
+itemCapacity: 240
+consumes: {
+  power: 5
+  liquid:cryofluid/0.16
+  items: {
+    items: [
+      error/120
+    ]
+  }
+}
+category: crafting
+requirements: [
+		lead/3000
+		titanium/2000
+		silicon/1600
+		plastanium/4000
+		elen/500
+		torwz/2000
+]
+research: {
+  parent: bigerror
+  requirements: [
+    lead/300000
+    titanium/200000
+    silicon/160000
+    plastanium/400000
+    elen/50000
+    torwz/200000
+  ]
+}
+ambientSound: techloop
+ambientSoundVolume: 2
+outputItem: akceb/120

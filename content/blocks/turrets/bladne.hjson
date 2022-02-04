@@ -1,0 +1,242 @@
+type: ItemTurret
+name: Błędne działo
+description: Wielofunkcyjne i uniwersalne narzędzie do obrony, z wieloma możliwymi zastosowaniami. Podziękowania dla Świrka oraz Stalkera za pomoc z kodem i balansem.
+health: 2200
+size: 3
+reloadTime: 60
+range: 500
+shots: 1
+ammoUseEffect: none
+rotateSpeed: 2
+targetAir: true
+recoilAmount: 1
+maxAmmo: 50
+ammoPerShot: 2
+ammoTypes: {
+  copper: {
+    type: BasicBulletType
+    speed: 5
+    inaccuracy: 20
+    damage: 66
+    width: 4
+    height: 6
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 100
+    ammoMultiplier: 3
+    }
+  lead: {
+    type: BasicBulletType
+    speed: 7
+    damage: 350
+    width: 15
+    height: 30
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 20
+    hitEffect: none
+    inaccuracy: 2
+    lifetime: 60
+    reloadMultiplier: 0.6
+    }
+  graphite: {
+    type: BasicBulletType
+    speed: 7
+    damage: 350
+    width: 5
+    height: 10
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 150
+    hitEffect: none
+    inaccuracy: 0
+    ammoMultiplier: 4
+    }
+  titanium: {
+    type: shrapnelBulletType
+    length: 10
+    damage: 400
+    width: 5
+    height: 10
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 300
+    hitEffect: none
+    pierce: true
+    inaccuracy: 0
+    reloadMultiplier: 0.6
+    status: shocked
+    }
+  thorium: {
+    type: artilleryBulletType
+    speed: 4
+    damage: 250
+    width: 5
+    height: 10
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 300
+    hitEffect: none
+    inaccuracy: 0
+    reloadMultiplier: 0.6
+    status: blasted
+    fragBullets: 10
+      fragBullet: {
+        type: basicBulletType
+        damage: 50
+        width: 3
+        height: 2
+        speed: 4
+        lifetime: 60
+        }
+    }
+  silicon: {
+    type: basicBulletType
+    speed: 5
+    lifetime: 200
+    ammoMultiplier: 2
+    damage: 190
+    heigth: 8
+    width: 2
+    inaccuracy: 10
+    reloadMultiplier: 1.4
+    homingPower: 0.08
+    homingRange: 60
+    }
+  plastanium: {
+    type: basicBulletType
+    speed: 4
+    damage: 270
+    width: 5
+    height: 10
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 200
+    hitEffect: none
+    inaccuracy: 3
+    fragBullets: 10
+      fragBullet: {
+        type: basicBulletType
+        damage: 60
+        width: 3
+        height: 2
+        speed: 2
+        lifetime: 30
+        }
+    }
+  phase-fabric: {
+    type: basicBulletType
+    speed: 5
+    damage: 150
+    width: 5
+    height: 10
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 250
+    hitEffect: none
+    inaccuracy: 3
+    knocback: 5
+    reloadMultiplier: 3
+    }
+  surge-alloy: {
+    type: basicBulletType
+    speed: 7
+    damage: 110
+    width: 4
+    height: 11
+    lifetime: 180
+    inaccuracy: 10
+    reloadMultiplier: 4
+    lighting: 5
+    lightingLength: 10
+    lightingDamage: 70
+    status: shocked
+    }
+  blast-compound: {
+    type: artilleryBulletType
+    speed: 3
+    splashDamage: 400
+    splashDamageRadius: 30
+    width: 5
+    height: 10
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 300
+    hitEffect: none
+    inaccuracy: 0
+    status: blasted
+    }
+  pyratite: {
+    type: basicFlameBulletType
+    ammoMultiplier: 20
+    hitSize: 35
+    speed: 4
+    damage: 75
+    keepVelocity: true
+    height: 10
+    lifetime: 120
+    inaccuracy: 0
+    status: burning
+    reloadMultiplier: 20
+    }
+  akceb: {
+    type: basicBulletType
+    ammoMultiplier: 50
+    inaccuracy: 2
+    width: 4
+    height: 12
+    lifetime: 180
+    speed: 8
+    damage: 350
+    reloadMultiplier: 100
+    status: shocked
+    } 
+  mikroczip: { 
+    type: basicBulletType
+    speed: 6
+    lifetime: 150
+    ammoMultiplier: 2
+    damage: 330
+    heigth: 4
+    width: 3
+    inaccuracy: 0
+    reloadMultiplier: 2
+    homingPower: 0.12
+    homingRange: 140
+    }
+  uranzu: {
+    type: basicBulletType
+    speed: 10
+    lifetime: 300
+    damage: 1500
+    height: 14
+    witdh: 8
+    innacuracy: 0
+    pierce: true
+    status: melting
+    reloadMultiplier: 0.2
+    }
+  torzu: {
+    type: flakBulletType
+    lifetime: 400
+    speed: 1
+    width: 2
+    heigth: 2
+    reloadMultiplier: 20
+    ammoMultiplier: 10
+    inaccuracy: 360
+    damage: 50
+    }
+}
+requirements: [    
+		metaglass/300
+		akceb/60
+]
+category: turret
+research: {
+  parent: wzmacniaczb
+  requirements: [
+    metaglass/30000
+    akceb/6000
+  ]
+}

@@ -1,0 +1,39 @@
+type: GenericCrafter
+name: Wytwarzacz baterii
+description: Wytwarza nienaładowane jednorazowe baterie. Możliwość składowania prądu w rdzeniu.
+health: 700
+size: 2
+updateEffect: sapExplosion
+craftTime: 150
+hasItems: true
+itemCapacity: 20
+consumes: {
+  power: 1
+  items: {
+    items: [
+      copper/8
+      lead/20
+      titanium/5
+      silicon/3
+    ]
+  }
+}
+category: crafting
+requirements: [
+		copper/200
+		lead/50
+		titanium/700
+		silicon/150
+]
+research: {
+  parent: wytapiacz
+  requirements: [
+    copper/2000
+    lead/500
+    titanium/7000
+    silicon/1500
+  ]
+}
+ambientSound: plasmadrop
+ambientSoundVolume: 1
+outputItem: bateria/2

@@ -1,0 +1,25 @@
+type: PowerNode
+name: Wieża przekaźnikowa
+description: Dzięki przekaźnikom jest w stanie rozesłać prąd na bardzo długie dystanse. Tekstura: Stalker
+health: 600
+size: 3
+laserRange: 100
+maxNodes: 50
+laserColor1: E9E9E9FF
+laserColor2: CFCFCFFF
+requirements: [
+  titanium/40
+  plastanium/40
+  nanoczesci/40
+  przekaznik/4
+]
+category: power
+research: {
+  parent: radioteleskop
+  requirements: [
+    titanium/400
+    plastanium/400
+    nanoczesci/400
+    przekaznik/40
+  ]
+}

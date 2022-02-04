@@ -1,0 +1,39 @@
+type: GenericCrafter
+name: Przetwórnia jądrowa
+description: Kompresuje i miesza radioaktywne składniki, uzyskując świetne paliwo jądrowe
+health: 800
+size: 2
+updateEffect: nuclearcloud
+craftTime: 690
+hasItems: true
+itemCapacity: 32
+consumes: {
+  power: 5
+  items: {
+    items: [
+      torwz/9
+      uranwz/16
+    ]
+  }
+}
+category: crafting
+requirements: [
+		lead/2000
+		graphite/400
+		elen/750
+		torwz/1250
+		uranwz/400
+]
+research: {
+  parent: promieniomodyfikator
+  requirements: [
+    lead/200000
+    graphite/40000
+    elen/75000
+    torwz/125000
+    uranwz/40000
+  ]
+}
+ambientSound: tractorbeam
+ambientSoundVolume: 2
+outputItem: paliwo/2

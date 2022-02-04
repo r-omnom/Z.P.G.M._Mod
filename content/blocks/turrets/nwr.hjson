@@ -1,0 +1,202 @@
+type: ItemTurret
+name: Niemobilna wyrzutnia rakiet
+description: NWR - Kompaktowe i tanie ustrojstwo (Niewystarczająco Wartościowy Rupieć).
+health: 1800
+size: 4
+reloadTime: 45
+range: 280
+shots: 1
+ammoUseEffect: none
+rotateSpeed: 1.66
+targetAir: true
+recoilAmount: 3
+maxAmmo: 40
+ammoTypes: {
+  blast-compound: {
+    type: missileBulletType
+    speed: 5
+    inaccuracy: 15
+    splashDamage: 240
+    splashDamageRadius: 270
+    width: 4
+    height: 6
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 100
+    ammoMultiplier: 2
+    }
+  anty: {
+    type: missileBulletType
+    speed: 3
+    splashDamage: 800
+    splashDamageRadius: 1080
+    width: 15
+    height: 30
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 20
+    hitEffect: none
+    inaccuracy: 6
+    lifetime: 1000
+    reloadMultiplier: 8
+    ammoMultiplier: 40
+    }
+  elen: {
+    type: missileBulletType
+    speed: 7
+    splashDamage: 1100
+    splashDamageRadius: 150
+    width: 5
+    height: 10
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 220
+    hitEffect: none
+    inaccuracy: 14
+    reloadMultiplier: 0.7
+    lightingDamage: 50
+    lighting: 5
+    lightingLength: 15
+    }
+  akcer: {
+    type: missileBulletType
+    length: 10
+    splashDamage: 150
+    splashDamageRadius: 1
+    width: 5
+    speed: 4 
+    height: 10
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 180
+    hitEffect: none
+    inaccuracy: 0
+    reloadMultiplier: 0.9
+    fragBullets: 1 
+      fragBullet: {
+        type: artilleryBulletType
+        splashDamage: 140
+        splashDamageRadius: 1000
+        lifetime: 30
+        speed: 1
+        fragBullets: 1
+          fragBullet: {
+            type: artilleryBulletType
+            splashDamage: 140
+            splashDamageRadius: 1000
+            lifetime: 30
+            speed: 1
+            fragBullets: 1
+              fragBullet: {
+                type: artilleryBulletType
+                splashDamage: 140
+                splashDamageRadius: 1000
+                lifetime: 30
+                speed: 1
+                fragBullets: 1
+                  fragBullet: {
+                    type: artilleryBulletType
+                    splashDamage: 140
+                    splashDamageRadius: 1000
+                    lifetime: 30
+                    speed: 1
+                    fragBullets: 1
+                      fragBullet: {
+                        type: artilleryBulletType
+                        splashDamage: 140
+                        splashDamageRadius: 1000
+                        lifetime: 30
+                        speed: 1
+                        fragBullets: 1
+                          fragBullet: {
+                            type: artilleryBulletType
+                            splashDamage: 140
+                            splashDamageRadius: 1000
+                            lifetime: 30
+                            speed: 1
+                            fragBullets: 1
+                              fragBullet: {
+                                type: artilleryBulletType
+                                splashDamage: 140
+                                splashDamageRadius: 1000
+                                lifetime: 30
+                                speed: 1
+                                fragBullets: 1
+                                  fragBullet: {
+                                    type: artilleryBulletType
+                                    splashDamage: 140
+                                    splashDamageRadius: 1000
+                                    lifetime: 30
+                                    speed: 1
+                                    fragBullets: 1
+                                      fragBullet: {
+                                        type: artilleryBulletType
+                                        splashDamage: 140
+                                        splashDamageRadius: 1000
+                                        lifetime: 30
+                                        speed: 1
+                                        fragBullets: 1
+                                          fragBullet: {
+                                            type: artilleryBulletType
+                                            splashDamage: 140
+                                            splashDamageRadius: 1000
+                                            lifetime: 30
+                                            speed: 1
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+  rtobu: {
+    type: missileBulletType
+    speed: 4
+    splashDamage: 666
+    splashDamageRadius: 800
+    width: 5
+    height: 10
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 300
+    hitEffect: none
+    inaccuracy: 0
+    reloadMultiplier: 0.4
+    status: blasted
+    fragBullets: 10
+      fragBullet: {
+        type: basicBulletType
+        damage: 50
+        width: 3
+        height: 2
+        speed: 4
+        lifetime: 60
+        }
+    }
+}
+requirements: [    
+		copper/560
+		lead/170
+		titanium/430
+		silicon/80
+		plastanium/500
+		surge-alloy/10
+		przekaznik/1
+]
+category: turret
+research: {
+  parent: radioteleskop
+  requirements: [
+    copper/56000
+    lead/17000
+    titanium/43000
+    silicon/8000
+    plastanium/50000
+    surge-alloy/1000
+    przekaznik/100
+  ]
+}

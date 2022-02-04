@@ -1,0 +1,39 @@
+type: GenericCrafter
+name: Organiczny przetwarzacz
+description: Przetwarza i odzyskuje organiczną siarkę z zarodników.
+health: 500
+size: 2
+updateEffect: nuclearcloud
+craftTime: 240
+hasItems: 10
+hasLiquid: 20
+consumes: {
+  power: 0.3 
+  liquid: slag/0.25
+  items: {
+    items: [
+      spore-pod/4
+    ]
+  }
+}
+category: crafting
+requirements: [
+		lead/150
+		metaglass/100
+		titanium/50
+		silicon/200
+		nanoczesci/10
+]
+research: {
+  parent: napelniaczz
+  requirements: [
+    lead/1500
+    metaglass/1000
+    titanium/500
+    silicon/2000
+    nanoczesci/100
+  ]
+}
+ambientSound: thruster
+ambientSoundVolume: 0.5
+outputItem: siarka/1

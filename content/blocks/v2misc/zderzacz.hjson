@@ -1,0 +1,49 @@
+type: GenericCrafter
+name: Zderzacz cząsteczkowy
+description: Zderza ze sobą cząstki, w ich wyniku powstaje antymateria.
+drawer: DrawAnimation
+health: 10000
+size: 10
+updateEffect: none
+craftTime: 1200
+hasItems: true
+itemCapacity: 20
+hasLiquids: true
+consumes: {
+  power: 40
+  items: {
+    items: [
+      akceb/10
+    ]
+  }
+}
+category: crafting
+requirements: [
+		copper/500
+		lead/500
+		metaglass/3500
+		silicon/3000
+		plastanium/1000
+		akcem/1500
+		elen/1500
+		fazowane/1000
+		torwz/750
+
+]
+research: {
+  parent: wzmacniaczb
+  requirements: [
+    copper/50000
+    lead/50000
+    metaglass/350000
+    silicon/300000
+    plastanium/100000
+    akcem/150000
+    elen/150000
+    fazowane/100000
+    torwz/75000
+  ]
+}
+ambientSound: techloop
+ambientSoundVolume: 2
+outputItem: anty/1

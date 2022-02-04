@@ -1,0 +1,87 @@
+type: ItemTurret
+name: Minigun
+description: Szybkostrzelne działo z własną amunicją i małym rozrzutem
+health: 1200
+size: 3
+reloadTime: 1
+range: 
+shots: 1
+ammoUseEffect: none
+rotateSpeed: 2
+targetAir: true
+recoilAmount: 1
+maxAmmo: 20
+ammoPerShot: 12
+ammoTypes: {
+  elen: {
+    type: BasicBulletType
+    speed: 10
+    inaccuracy: 0
+    damage: 3000
+    width: 3
+    height: 1
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 2000
+    pierce: true
+    ammoMultiplier: 3
+    }
+  akcem: {
+    type: BasicBulletType
+    speed: 100
+    damage: 2500
+    width: 5
+    height: 10
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 20
+    hitEffect: none
+    inaccuracy: 0
+    lifetime: 1500
+    pierce: true
+    ammoMultiplier: 6
+    }
+  akcee: {
+    type: BasicBulletType
+    speed: 8
+    damage: 5000
+    width: 5
+    height: 10
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 1000
+    frontColor: f38e30
+    backColor: f38e30
+    hitEffect: none
+    status: melting
+    pierce: true
+    inaccuracy: 3
+    ammoMultiplier: 4
+    }
+}
+requirements: [    
+		copper/1000
+		lead/350
+		titanium/200
+		silicon/600
+		plastanium/2000
+		akcee/10
+		akcem/20
+		elen/50
+		mikroczip/10
+]
+category: turret
+research: {
+  parent: wzmacniaczm
+  requirements: [
+    copper/100000
+    lead/35000
+    titanium/20000
+    silicon/60000
+    plastanium/200000
+    akcee/1000
+    akcem/2000
+    elen/5000
+    mikroczip/1000
+  ]
+}

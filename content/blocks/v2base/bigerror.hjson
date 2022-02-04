@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: ERROR
+description: TEGO BŁĘDU NIE IGNOROWAĆ, TYLKO UCIEKAĆ JAK NAJSZYBCIEJ SIĘ DA.
+drawer: DrawAnimation
+health: 1200
+size: 4
+updateEffect: impactcloud
+craftTime: 60
+hasItems: true
+itemCapacity: 15
+hasLiquids: true
+consumes: {
+  power: 5
+  items: {
+    items: [
+      akcer/3
+      akcee/1
+      fazowane/15
+    ]
+  }
+}
+category: crafting
+requirements: [
+		metaglass/2000
+		fazowane/1000
+]
+research: {
+  parent: wzmacniaczr
+  requirements: [
+    copper/100000
+  ]
+}
+ambientSound: techloop
+ambientSoundVolume: 2
+outputItem: error/3

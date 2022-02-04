@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: Ładowarka
+description: Ładuje baterie. Jedna jest w stanie pomieścić 1000 jednostek prądu.
+health: 700
+size: 2
+updateEffect: shootHeal
+craftTime: 600
+hasItems: 10
+consumes: {
+  power: 10
+  items: {
+    items: [
+      bateria/6
+    ]
+  }
+}
+category: power
+requirements: [
+		copper/300
+		lead/600
+		titanium/450
+		silicon/200
+		plastanium/800
+]
+research: {
+  parent: wytwarzaczb
+  requirements: [
+    copper/3000
+    lead/6000
+    titanium/4500
+    silicon/2000
+    plastanium/8000
+  ]
+}
+ambientSound: conveyor
+ambientSoundVolume: 1
+outputItem: baterian/6

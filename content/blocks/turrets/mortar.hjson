@@ -1,0 +1,78 @@
+type: ItemTurret
+name: Mortar
+description: Dzięki przekaźnikowi ma zasięg odrobinę większy od foreshadowa. Bardzo powolny i podatny na uszkodzenia, zalecane zabezpieczenie artylerią przeciwlotniczą oraz szybkostrzelnymi działkami ziemnym. Pomysł: Not_Bot, tekstura: Stalker
+health: 250
+size: 3
+reloadTime: 600
+range: 1200
+shots: 1
+ammoUseEffect: none
+rotateSpeed: 4
+targetAir: false
+recoilAmount: 1
+maxAmmo: 60
+ammoTypes: {
+thorium:{
+type: ArtilleryBulletType
+speed: 2
+lifetime: 2000
+width: 10
+height: 10
+splashDamage: 400
+splashDamageRadius: 10
+ammoMultiplier: 1
+despawnEffect: explosion
+hitSound: explosion
+frontColor: 4B0082
+backColor: 4B0082
+trailColor: 4B0082
+}
+blast-compound:{
+type: ArtilleryBulletType
+speed: 2.5
+lifetime: 2000
+width: 10
+height: 10
+splashDamage: 200
+splashDamageRadius: 25
+ammoMultiplier: 5
+despawnEffect: explosion
+hitSound: explosion
+frontColor: ff0000
+backColor: ff0000
+trailColor: ff0000
+}
+butelkan:{
+type: ArtilleryBulletType
+speed: 6
+lifetime: 2000
+width: 10
+height: 10
+splashDamage: 800
+splashDamageRadius: 80
+ammoMultiplier: 2
+despawnEffect: explosion
+hitSound: explosion
+frontColor: ffffff
+backColor: ffffff
+trailColor: ffffff
+}
+}
+requirements: [
+  copper/1000  
+  titanium/100
+  thorium/200
+  mikroczip/8
+  przekaznik/2
+]
+category: turret
+research: {
+  parent: nitromieszacz
+  requirements: [
+    copper/10000
+    titanium/1000
+    thorium/2000
+    mikroczip/80
+    przekaznik/20
+  ]
+}

@@ -1,0 +1,31 @@
+name: Ulepszony promieniomodyfikator
+description: Za pomocą radioaktywnej cieczy i kilku bryłek uranu produkuje wzbogacony uran.
+type: Separator
+requirements: [
+lead/800
+titanium/500
+silicon/2000
+plastanium/1000
+elen/1500
+fazowane/400
+torwz/600
+] 
+health: 400
+size: 5
+liquidCapacity: 10
+craftTime: 120
+consumes: {
+power: 7
+liquid: {
+liquid: mrciecz
+amount: 0.16
+item: {
+item: uran
+amount: 1
+}}}
+results: [
+uranzu/5
+uranwz/1
+]
+category: crafting
+research: promienioprzetwarzaczb

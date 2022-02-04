@@ -1,0 +1,42 @@
+type: GenericCrafter
+name: Mieszacz nitrogliceryny
+description: Odzyskuje niezbędne składniki z zarodników i wody, aby wytworzyć ekstremalnie wybuchową nitroglicerynę. Zalecane budowanie przy pomocy kilku dronów poly. Tekstura: Zielony Trójkąt
+health: 1500
+size: 4
+updateEffect: hitBulletBig
+craftTime: 1800
+hasItems: true
+itemCapacity: 15
+consumes: {
+  power: 20
+  items: {
+    items: [
+      spore-pod/15
+      butelkaw/10
+      siarka/10
+    ]
+  }
+}
+category: crafting
+requirements: [
+		copper/1000
+		lead/750
+		graphite/500
+		silicon/1250
+		mikroczip/2
+		nanoczesci/200
+]
+research: {
+  parent: przetwarzaczs
+  requirements: [
+    copper/1000
+    lead/7500
+    graphite/5000
+    silicon/12500
+    mikroczip/20
+    nanoczesci/2000
+  ]
+}
+ambientSound: techloop
+ambientSoundVolume: 2
+outputItem: butelkan/1

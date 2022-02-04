@@ -1,0 +1,46 @@
+type: GenericCrafter
+name: Ulepszony promienioprzetwarzacz 
+description: Miesza rozkruszony uran z ciekłym azotem uzyskując ciecz do dalszych jądrowych przerobów, zarodniki zamrożone w azocie wymagają dalszych badań.
+health: 700
+size: 4
+consumes: {
+ power: 5
+ liquid: azotn/0.3
+ items: {
+  items: [
+   uran/10
+  ]
+ }
+}
+outputLiquid: mrciecz/0.15
+requirements: [
+copper/600
+lead/1000
+metaglass/2000
+titanium/500
+silicon/1500
+plastanium/1000
+phase-fabric/200
+surge-alloy/400
+nanoczesci/100
+mikroczip/10
+]
+category: crafting
+updateEffect: nuclearcloud
+updateEffectChance: 0.02
+outputLiquid: mrciecz/24
+research: {
+  parent: promienioskladacz
+  requirements: [
+    copper/60000
+    lead/100000
+    metaglass/200000
+    titanium/50000
+    silicon/150000
+    plastanium/100000
+    phase-fabric/20000
+    surge-alloy/40000
+    nanoczesci/10000
+    mikroczip/1000
+  ]
+}

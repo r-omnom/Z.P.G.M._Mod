@@ -1,0 +1,41 @@
+type: GenericCrafter
+name: Fazowa przędnica
+description: Zwiększa radioaktywność włókna fazowego i je przędzi. Nie wiadomo jak, ale efekt ma dziwne właściwości.
+drawer: DrawWeave
+health: 700
+size: 3
+updateEffect: nuclearcloud
+craftTime: 420
+hasItems: true
+consumes: {
+  power: 5
+  items: {
+    items: [
+      torwz/10
+      phase-fabric/5
+    ]
+  }
+}
+category: crafting
+requirements: [
+		lead/3000
+		titanium/2000
+		silicon/1600
+		plastanium/4000
+		elen/500
+		torwz/2000
+]
+research: {
+  parent: promienioprzetwarzaczb
+  requirements: [
+    lead/300000
+    titanium/200000
+    silicon/160000
+    plastanium/400000
+    elen/50000
+    torwz/200000
+  ]
+}
+ambientSound: techloop
+ambientSoundVolume: 2
+outputItem: fazowane/2

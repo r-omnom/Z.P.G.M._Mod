@@ -1,0 +1,42 @@
+type: GenericCrafter
+name: Chemioskładacz
+description: Wytwarza chemikalia o niesamowicie przestronnym zastosowaniu.
+health: 1200
+size: 3
+updateEffect: none
+craftTime: 600
+hasItems: true
+itemCapacity: 8
+consumes: {
+  power: 4
+  items: {
+    items: [
+      baterian/2
+      butelkar/6
+      butelkaw/8
+      butelkaz/4
+      siarka/3
+    ]
+  }
+}
+category: crafting
+requirements: [
+		metaglass/2000
+		graphite/350
+		titanium/500
+		plastanium/750
+		elen/1000
+]
+research: {
+  parent: ladowarka
+  requirements: [
+    metaglass/200000
+    graphite/35000
+    titanium/50000
+    plastanium/75000
+    elen/100000
+  ]
+}
+ambientSound: tractorbeam
+ambientSoundVolume: 2
+outputItem: chemia/2

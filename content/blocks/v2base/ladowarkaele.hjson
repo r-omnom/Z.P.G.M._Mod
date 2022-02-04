@@ -1,0 +1,46 @@
+type: GenericCrafter
+name: Ładowarka elektrum
+description: Ładuje elektrum pokaźnymi ilościami prądu.
+health: 2000
+size: 5
+updateEffect: teleportActivate
+craftTime: 600
+hasItems: 20
+consumes: {
+  power: 40
+  items: {
+    items: [
+      surge-alloy/1
+      baterian/6
+    ]
+  }
+}
+category: power
+requirements: [
+		copper/600
+		lead/600
+		titanium/1800
+		thorium/2000
+		silicon/4000
+		plastanium/2000
+		phase-fabric/1000
+		nanoczesci/100
+		torwz/800
+]
+research: {
+  parent: promienioprzetwarzacza
+  requirements: [
+    copper/60000
+    lead/60000
+    titanium/180000
+    thorium/200000
+    silicon/400000
+    plastanium/200000
+    phase-fabric/100000
+    nanoczesci/10000
+    torwz/80000
+  ]
+}
+ambientSound: techloop
+ambientSoundVolume: 20
+outputItem: elen/1

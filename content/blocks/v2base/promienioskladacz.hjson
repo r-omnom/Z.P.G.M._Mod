@@ -1,0 +1,43 @@
+type: GenericSmelter
+name: Promienioskładacz
+description: Za pomocą promieniowania z wzbogaconego toru wytwarza uran, jedyna możliwość jego pozyskania na Serpulo.
+health: 2000
+size: 4
+updateEffect: nuclearcloud
+craftTime: 420
+hasItems: 20
+consumes: {
+  power: 40
+  items: {
+    items: [
+      torwz/4
+    ]
+  }
+}
+category: crafting
+requirements: [
+		lead/1600
+		titanium/900
+		silicon/1500
+		plastanium/2000
+		phase-fabric/800
+		nanoczesci/150
+		elen/500
+		torwz/1000
+]
+research: {
+  parent: promieniomodyfikator
+  requirements: [
+    lead/160000
+    titanium/90000
+    silicon/150000
+    plastanium/200000
+    phase-fabric/80000
+    nanoczesci/15000
+    elen/50000
+    torwz/100000
+  ]
+}
+ambientSound: techloop
+ambientSoundVolume: 1
+outputItem: uran/3

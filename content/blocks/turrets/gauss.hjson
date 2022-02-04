@@ -1,0 +1,63 @@
+type: ItemTurret
+name: Działo Gaussa
+description: Słabe, ale tanie pod względem amunicji. Efektywne w grupach
+health: 1500
+size: 4
+reloadTime: 30
+range: 250
+shots: 1
+ammoUseEffect: none
+rotateSpeed: 3
+targetAir: true
+recoilAmount: 1
+maxAmmo: 20
+ammoPerShot: 5
+ammoTypes: {
+  copper: {
+    type: BasicBulletType
+    speed: 4
+    inaccuracy: 0
+    damage: 110
+    width: 3
+    height: 3
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 100
+    ammoMultiplier: 3
+    }
+  titanium: {
+    type: BasicBulletType
+    speed: 6
+    damage: 75
+    width: 4
+    height: 4
+    shootEffect: none
+    smokeEffect: none
+    lifetime: 20
+    hitEffect: none
+    inaccuracy: 0
+    lifetime: 80 
+    pierce: true
+    ammoMultiplier: 5
+    }
+}
+requirements: [    
+		titanium/400
+		silicon/100
+		plastanium/500
+		akcem/4
+		elen/20
+		nanoczesci/15
+]
+category: turret
+research: {
+  parent: wzmacniaczm
+  requirements: [
+    titanium/40000
+    silicon/10000
+    plastanium/50000
+    akcem/400
+    elen/2000
+    nanoczesci/1500
+  ]
+}

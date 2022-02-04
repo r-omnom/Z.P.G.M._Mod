@@ -1,0 +1,41 @@
+name: Wychładzacz azotu
+description: Oddziela azot z powietrza i wychładza go poniżej temperatury parowania. Znakomite, choć drogie chłodziwo.
+type: Fracker
+itemCapacity: 10
+health: 300
+size: 3
+liquidCapacity: 90
+rotateSpeed: 2
+hasPower: true
+updateEffect: hitLiquid
+updateEffectChance: 0.01
+pumpAmount: 0.025
+result: azotn
+itemUseTime: 60
+consumes: {
+  power: 15
+  items: {
+    items: [
+    ]
+  }
+}
+requirements: [
+  lead/100
+  metaglass/150
+  titanium/400
+  silicon/1000
+  plastanium/100
+  surge-alloy/50
+]
+category: production
+research: {
+  parent: odzyskiwaczl
+  requirements: [
+    lead/1000
+    metaglass/1500
+    titanium/4000
+    silicon/10000
+    plastanium/1000
+    surge-alloy/500
+  ]
+}

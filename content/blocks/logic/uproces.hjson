@@ -1,0 +1,37 @@
+name: Ultraprocesor
+description: Dzięki użyciu przekaźników znacząco zwiększa zasięg działania, użycie mikroczipów optymalizuje akcje i pozwala na większą ilość operacji na sekundę.
+type: LogicBlock
+size: 3
+health: 800
+
+hasLiquids: false
+hasPower: true
+
+requirements: [
+    copper/300
+    lead/100
+    titanium/1000
+    silicon/350
+    plastanium/1000
+    mikroczip/16
+    nanoczesci/50
+    przekaznik/8
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+            item: butelkal
+            amount: 1
+            }
+        ]
+    }
+    power: 5
+}
+
+instructionsPerTick: 40
+range: 800
+
+category: logic
+research: radioteleskop
