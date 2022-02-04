@@ -1,0 +1,25 @@
+type: StackConveyor
+description: Wskazuje drogę dla małych barek transportowych.
+name: Boja wskaźnikowa
+health: 250
+speed: 0.09
+ItemCapacity:5
+displayedSpeed: 6
+requirements: [
+		metaglass/2
+		plastanium/2
+		nanoczesci/1
+]
+
+requiresWater: true
+placeableLiquid: true
+
+category: distribution
+research: {
+  parent: nanoskladacz
+  requirements: [
+    metaglass/20
+    plastanium/20
+    nanoczesci/10
+  ]
+}
