@@ -25,7 +25,7 @@ requirements: [
 		nanoczesci/10
 ]
 research: {
-  parent: napelniaczz
+  parent: butelkownia
   requirements: [
     lead/1500
     metaglass/1000
