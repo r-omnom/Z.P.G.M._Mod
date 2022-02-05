@@ -29,7 +29,7 @@ requirements: [
 ]
 category: production
 research: {
-  parent: odzyskiwaczl
+  parent: butelkownia
   requirements: [
     lead/1000
     metaglass/1500
