@@ -5,7 +5,9 @@ health: 250
 category: crafting
 requirements: [
   copper/75
-  lead/65
+  lead/20
   graphite/50
-  metaglass/35
+  metaglass/40
+  titanium/20
+  plastanium/30
 ]
