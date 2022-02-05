@@ -14,12 +14,12 @@ requirements: [
 research: {
   parent: wytapiacz
   requirements: [
-  copper/750
-  lead/200
-  graphite/500
-  metaglass/400
-  titanium/20
-  plastanium/
+    copper/750
+    lead/200
+    graphite/500
+    metaglass/400
+    titanium/200
+    plastanium/300
   ]
 }
 ambientSound: conveyor
