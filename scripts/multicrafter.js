@@ -1,6 +1,6 @@
 const multiLib = require("multi-lib/library");
 
-const furnace = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "butelkownia", [
+const butelkownia = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.GenericCrafterBuild, "butelkownia", [
     /*default form for each recipes. You can change values.
     {
         input:{
@@ -132,7 +132,8 @@ hasPower
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
 butelkownia.localizedName = "butelkownia";
 butelkownia.description = "Napełnia i odzyskuje ciecz z butelek";
-butelkownia.itemCapacity = 20;
+butelkownia.itemCapacity = 48;
+butelkownia.liquidCapacity = 180
 butelkownia.size = 2;
 butelkownia.health = 250;
 /*true: dump items and liquids of output according to button
