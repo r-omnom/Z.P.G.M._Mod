@@ -131,7 +131,7 @@ hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
 butelkownia.localizedName = "butelkownia";
-butelkownia.description = "Electir Furnace use power to smelt items";
+butelkownia.description = "Napełnia i odzyskuje ciecz z butelek";
 butelkownia.itemCapacity = 20;
 butelkownia.size = 2;
 butelkownia.health = 250;
