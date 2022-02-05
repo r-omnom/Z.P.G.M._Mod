@@ -1,0 +1,11 @@
+localizedName: Butelkownia
+description: Napełnia i odzyskuje ciecz z butelek
+size: 2
+health: 250
+category: crafting
+requirements: [
+  copper/75
+  lead/65
+  graphite/50
+  metaglass/35
+]
