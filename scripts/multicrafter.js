@@ -18,7 +18,7 @@ const butelkownia = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Generic
     {
         input: {
             items: ["z.p.g.m._mod-butelka/12"],
-			liquids: ["water/180"],
+	    liquids: ["water/180"],
             power: 1.2,
         },
         output: {
@@ -29,7 +29,7 @@ const butelkownia = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Generic
     {
         input: {
             items: ["z.p.g.m._mod-butelka/12"],
-			liquids: ["cryofluid/180"],
+	    liquids: ["cryofluid/180"],
             power: 1.2,
         },
         output: {
@@ -37,10 +37,10 @@ const butelkownia = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Generic
         },
         craftTime: 60
     },
-	{
+    {
         input: {
             items: ["z.p.g.m._mod-butelka/12"],
-			liquids: ["oil/180"],
+	    liquids: ["oil/180"],
             power: 1.2,
         },
         output: {
@@ -48,10 +48,10 @@ const butelkownia = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Generic
         },
         craftTime: 60
     },
-	{
+    {
         input: {
             items: ["z.p.g.m._mod-butelka/12"],
-			liquids: ["slag/180"],
+	    liquids: ["slag/180"],
             power: 1.2,
         },
         output: {
@@ -59,49 +59,49 @@ const butelkownia = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Generic
         },
         craftTime: 60
     },
-	{
-		input: {
-			items: ["z.p.g.m._mod-butelkaw/12"],
-			power: 1.2,
-		},
-		output: {
-			items: ["z.p.g.m._mod-butelka/12"],
-			liquids: ["water/180"],
-		},
-		craftTime: 60
+    {
+	input: {
+	    items: ["z.p.g.m._mod-butelkaw/12"],
+	    power: 1.2,
+	},
+	output: {
+	     items: ["z.p.g.m._mod-butelka/12"],
+	     liquids: ["water/180"],
+	},
+	craftTime: 60
 	},
 	{
-		input: {
-			items: ["z.p.g.m._mod-butelkal/12"],
-			power: 1.2,
-		},
-		output: {
-			items: ["z.p.g.m._mod-butelka/12"],
-			liquids: ["cryofluid/180"],
-		},
-		craftTime: 60
+	input: {
+	    items: ["z.p.g.m._mod-butelkal/12"],
+	    power: 1.2,
+	},
+	output: {
+	     items: ["z.p.g.m._mod-butelka/12"],
+	     liquids: ["cryofluid/180"],
+	},
+	craftTime: 60
 	},
 	{
-		input: {
-			items: ["z.p.g.m._mod-butelkar/12"],
-			power: 1.2,
-		},
-		output: {
-			items: ["z.p.g.m._mod-butelka/12"],
-			liquids: ["oil/180"],
-		},
-		craftTime: 60
+	input: {
+	    items: ["z.p.g.m._mod-butelkar/12"],
+	    power: 1.2,
+	},
+	output: {
+	     items: ["z.p.g.m._mod-butelka/12"],
+	     liquids: ["oil/180"],
+	},
+	craftTime: 60
 	},
 	{
-		input: {
-			items: ["z.p.g.m._mod-butelkaz/12"],
-			power: 1.2,
-		},
-		output: {
-			items: ["z.p.g.m._mod-butelka/12"],
-			liquids: ["slag/180"],
-		},
-		craftTime: 60
+	input: {
+	    items: ["z.p.g.m._mod-butelkaz/12"],
+	    power: 1.2,
+	},
+	output: {
+	     items: ["z.p.g.m._mod-butelka/12"],
+	     liquids: ["slag/180"],
+	},
+	craftTime: 60
 	},
 ], {
     /*you can customize block here. ex) load()*/
@@ -139,5 +139,3 @@ butelkownia.health = 250;
 /*true: dump items and liquids of output according to button
 false: dump items and liquids of output unconditionally*/
 butelkownia.dumpToggle = true;
-
-
