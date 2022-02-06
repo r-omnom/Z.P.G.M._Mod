@@ -19,9 +19,9 @@ liquid: {
 liquid: lrciecz
 amount: 0.16
 item: {
-item: thorium
-amount: 1
-}}}
+item [
+thorium/1
+]}}}
 results: [
 torzu/17
 torwz/4
