@@ -18,8 +18,8 @@ power: 7
 liquid: {
 liquid: lrciecz
 amount: 0.16
-item: {
-item [
+items: {
+items: [
 thorium/1
 ]}}}
 results: [
