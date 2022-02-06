@@ -4,4 +4,7 @@ description: "Z.P.G.M. Mod dla dużej rozpierduchy oraz zabawy. Wspierający: Ś
 author: "r_omnom7"
 minGameVersion: "135"
 version: "2.1.3.5"
+dependencies: [
+  multi-lib
+]
 //ostatnie zmiany: dodano butelkownię
