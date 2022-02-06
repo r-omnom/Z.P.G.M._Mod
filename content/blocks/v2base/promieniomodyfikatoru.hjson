@@ -20,9 +20,9 @@ liquid: {
 liquid: mrciecz
 amount: 0.16
 item: {
-item: uran
-amount: 1
-}}}
+item: [
+uran/1
+]}}}
 results: [
 uranzu/5
 uranwz/1
