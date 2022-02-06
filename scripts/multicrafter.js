@@ -130,10 +130,10 @@ hasLiquids
 hasPower
 */
 //using example without .json file. I don't recommand this way because you can't use mod item as requirements.
-butelkownia.localizedName = "butelkownia";
+butelkownia.localizedName = "Butelkownia";
 butelkownia.description = "Napełnia i odzyskuje ciecz z butelek";
 butelkownia.itemCapacity = 48;
-butelkownia.liquidCapacity = 180
+butelkownia.liquidCapacity = 180;
 butelkownia.size = 2;
 butelkownia.health = 250;
 /*true: dump items and liquids of output according to button
