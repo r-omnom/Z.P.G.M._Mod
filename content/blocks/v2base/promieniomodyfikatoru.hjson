@@ -19,8 +19,8 @@ power: 7
 liquid: {
 liquid: mrciecz
 amount: 0.16
-item: {
-item: [
+items: {
+items: [
 uran/1
 ]}}}
 results: [
