@@ -1,5 +1,7 @@
 localizedName: Butelkownia
 description: Napełnia i odzyskuje ciecz z butelek
+liquidCapacity: 180
+itemCapacity: 48
 size: 2
 health: 250
 category: crafting
