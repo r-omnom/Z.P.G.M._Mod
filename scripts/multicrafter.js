@@ -81,7 +81,7 @@ const butelkownia = multiLib.MultiCrafter(GenericCrafter, GenericCrafter.Generic
 		},
 		craftTime: 60,
 	},
-    {
+	{
 		input: {
 			items: ["z.p.g.m._mod-butelkar/12"],
 			power: 1.2,
