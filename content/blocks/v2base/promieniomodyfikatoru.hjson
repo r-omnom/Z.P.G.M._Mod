@@ -19,10 +19,13 @@ power: 7
 liquid: {
 liquid: mrciecz
 amount: 0.16
+}
 items: {
-items: [
-uran/1
-]}}}
+  items: [
+    uran/1
+   ]
+  }
+}
 results: [
 uranzu/5
 uranwz/1
