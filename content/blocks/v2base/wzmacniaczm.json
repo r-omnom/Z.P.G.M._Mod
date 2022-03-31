@@ -9,7 +9,7 @@
 	"itemCapacity": 30,
 	"liquidCapacity": 120,
 	"solid": true,
-	"health": 2000
+	"health": 2000,
 	"size": 5,
 	"activeSound": "techloop",
 	"activeSoundVolume": 2,
@@ -22,7 +22,7 @@
 		{ "item": "plastanium", "amount": 200 },
 		{ "item": "elen", "amount": 500 },
 		{ "item": "fazowane", "amount": 500 },
-		{ "item": "nanoczesci", "amount": 200 },
+		{ "item": "nanoczesci", "amount": 200 }
 	],
 	"category": "crafting",
 	"research": "promieniomodyfikatoru",
@@ -39,8 +39,8 @@
 				{ "item": "titanium", "amount": 5 },
 				{ "item": "elen", "amount": 2 },
 				{ "item": "mikroczip", "amount": 1 },
-				{ "item": "przekaznik", "amount": 1 },
+				{ "item": "przekaznik", "amount": 1 }
 			]
-		},
-	},
+		}
+	}
 }
