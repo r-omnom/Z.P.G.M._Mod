@@ -1,0 +1,52 @@
+localizedName: Butelkownia
+description: Napełnia i odzyskuje ciecz z butelek
+type: multicraft.MultiCrafter
+liquidCapacity: 180
+itemCapacity: 48
+size: 2
+health: 250
+category: crafting
+requirements: [
+  copper/75
+  lead/20
+  graphite/50
+  metaglass/40
+  titanium/20
+  plastanium/30
+]
+research: {
+  parent: wytapiacz
+  requirements: [
+    copper/750
+    lead/200
+    graphite/500
+    metaglass/400
+    titanium/200
+    plastanium/300
+  ]
+}
+ambientSound: conveyor
+recipes: [
+    {
+        input: {
+            items: z.p.g.m._mod-butelka/12
+            fluids: water/180
+            power: 1.2,
+        }
+        output: {
+            items: z.p.g.m._mod-butelkaw/12
+        }
+        craftTime: 60
+    },
+    {
+        input: {
+            items: z.p.g.m._mod-butelka/12
+            fluids: cryofluid/180
+            power: 1.2,
+        }
+        output: {
+            items: z.p.g.m._mod-butelkal/12
+        }
+        craftTime: 60
+    },
+]
