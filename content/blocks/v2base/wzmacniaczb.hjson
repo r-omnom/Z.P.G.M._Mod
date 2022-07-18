@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: Błędny wzmacniacz
 description: Stabilizuje błędne oddziaływania, bardzo czasochłonny proces.
-drawer: DrawAnimation
+drawer: DrawFrames
 health: 3000
 size: 6
 updateEffect: sapped

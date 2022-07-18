@@ -2,7 +2,7 @@
 	"name": "Wzmacniacz radiacyjny",
 	"type": "GenericCrafter",
 	"description": "Przetwarza i kompresuje promieniowanie aby móc potem posłużyć się nim w nieoczekiwany sposób. użyteczny w dalszych przerobach jądrowych i błędnej technologii. Tekstura: Stalker, animacja: r_omnom7",
-	"drawer": "DrawAnimation",
+	"drawer": "DrawFrames",
 	"hasItems": true,
 	"hasLiquids": true,
 	"hasPower": true,

@@ -2,7 +2,7 @@
 	"name": "Wzmacniacz magnetyczny",
 	"type": "GenericCrafter",
 	"description": "Modyfikuje pole magnetyczne i potrafi wytwarzać urządzenia, które przydadzą się w wszelkich ciężkich warunkach. Tekstura: Stalker, animacja: r_omnom7",
-	"drawer": "DrawAnimation",
+	"drawer": "DrawFrames",
 	"hasItems": true,
 	"hasLiquids": true,
 	"hasPower": true,
