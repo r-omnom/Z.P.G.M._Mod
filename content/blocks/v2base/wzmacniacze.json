@@ -2,7 +2,9 @@
 	"name": "Wzmacniacz energetyczny",
 	"type": "GenericCrafter",
 	"description": "Wytwarza skomplikowane urządzenia, które będą przydatne w każdej zaawansowanej technicznie jednostce. Tekstura: Stalker, animacja: r_omnom7",
-	"drawer": "DrawFrames",
+	"drawer": [
+		"DrawFrames", "DrawDefault"
+	],
 	"hasItems": true,
 	"hasLiquids": true,
 	"hasPower": true,

@@ -1,7 +1,10 @@
 type: GenericCrafter
 name: Fazowa przędnica
 description: Zwiększa radioaktywność włókna fazowego i je przędzi. Nie wiadomo jak, ale efekt ma dziwne właściwości.
-drawer: DrawWeave
+drawer: [
+  DrawWeave
+  DrawDefault
+]
 health: 700
 size: 3
 updateEffect: reactorExplosion
