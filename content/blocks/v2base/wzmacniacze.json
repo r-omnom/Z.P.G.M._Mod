@@ -2,14 +2,16 @@
 	"name": "Wzmacniacz energetyczny",
 	"type": "GenericCrafter",
 	"description": "Wytwarza skomplikowane urządzenia, które będą przydatne w każdej zaawansowanej technicznie jednostce. Tekstura: Stalker, animacja: r_omnom7",
-	"drawer": "DrawAnimation",
+	"drawer": [
+		"DrawFrames", "DrawDefault"
+	],
 	"hasItems": true,
 	"hasLiquids": true,
 	"hasPower": true,
 	"itemCapacity": 30,
 	"liquidCapacity": 120,
 	"solid": true,
-	"health": 2000
+	"health": 2000,
 	"size": 5,
 	"activeSound": "techloop",
 	"activeSoundVolume": 2,
@@ -22,7 +24,7 @@
 		{ "item": "plastanium", "amount": 500 },
 		{ "item": "elen", "amount": 500 },
 		{ "item": "fazowane", "amount": 200 },
-		{ "item": "mikroczip", "amount": 50 },
+		{ "item": "mikroczip", "amount": 50 }
 	],
 	"category": "crafting",
 	"research": "promieniomodyfikatoru",
@@ -40,8 +42,8 @@
 				{ "item": "silicon", "amount": 3 },
 				{ "item": "baterian", "amount": 12 },
 				{ "item": "elen", "amount": 5 },
-				{ "item": "mikroczip", "amount": 2 },
+				{ "item": "mikroczip", "amount": 2 }
 			]
-		},
-	},
+		}
+	}
 }

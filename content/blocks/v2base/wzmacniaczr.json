@@ -2,14 +2,16 @@
 	"name": "Wzmacniacz radiacyjny",
 	"type": "GenericCrafter",
 	"description": "Przetwarza i kompresuje promieniowanie aby móc potem posłużyć się nim w nieoczekiwany sposób. użyteczny w dalszych przerobach jądrowych i błędnej technologii. Tekstura: Stalker, animacja: r_omnom7",
-	"drawer": "DrawAnimation",
+	"drawer": [
+		"DrawFrames", "DrawDefault"
+	],
 	"hasItems": true,
 	"hasLiquids": true,
 	"hasPower": true,
 	"itemCapacity": 30,
 	"liquidCapacity": 120,
 	"solid": true,
-	"health": 2000
+	"health": 2000,
 	"size": 5,
 	"activeSound": "techloop",
 	"activeSoundVolume": 2,
@@ -21,7 +23,7 @@
 		{ "item": "silicon", "amount": 1000 },
 		{ "item": "fazowane", "amount": 1250 },
 		{ "item": "torwz", "amount": 1000 },
-		{ "item": "uranwz", "amount": 200 },
+		{ "item": "uranwz", "amount": 200 }
 	],
 	"category": "crafting",
 	"research": "promieniomodyfikatoru",
@@ -38,8 +40,8 @@
 				{ "item": "fazowane", "amount": 5 },
 				{ "item": "mikroczip", "amount": 3 },
 				{ "item": "torwz", "amount": 10 },
-				{ "item": "uranwz", "amount": 1 },
+				{ "item": "uranwz", "amount": 1 }
 			]
-		},
-	},
+		}
+	}
 }

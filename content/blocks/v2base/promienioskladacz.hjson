@@ -3,7 +3,7 @@ name: Promienioskładacz
 description: Za pomocą promieniowania z wzbogaconego toru wytwarza uran, jedyna możliwość jego pozyskania na Serpulo.
 health: 2000
 size: 4
-updateEffect: nuclearcloud
+updateEffect: reactorExplosion
 craftTime: 420
 hasItems: 20
 consumes: {
