@@ -30,8 +30,8 @@ recipes: [
     {
         input: {
             items: z.p.g.m._mod-butelka/12
-            fluids: water/30
-            power: 1.2,
+            fluids: water/3
+            power: 1.2
         }
         output: {
             items: z.p.g.m._mod-butelkaw/12
@@ -41,8 +41,8 @@ recipes: [
     {
         input: {
             items: z.p.g.m._mod-butelka/12
-            fluids: cryofluid/30
-            power: 1.2,
+            fluids: cryofluid/3
+            power: 1.2
         }
         output: {
             items: z.p.g.m._mod-butelkal/12
@@ -52,8 +52,8 @@ recipes: [
     {
         input: {
             items: z.p.g.m._mod-butelka/12
-            fluids: oil/30
-            power: 1.2,
+            fluids: oil/3
+            power: 1.2
         }
         output: {
             items: z.p.g.m._mod-butelkar/12
@@ -63,12 +63,57 @@ recipes: [
     {
         input: {
             items: z.p.g.m._mod-butelka/12
-            fluids: slag/30
-            power: 1.2,
+            fluids: slag/3
+            power: 1.2
         }
         output: {
             items: z.p.g.m._mod-butelkaz/12
         }
         craftTime: 60
     },
+    # Unload
+    {
+        input: {
+            items: z.p.g.m._mod-butelkaw/12
+            power: 1.2
+        }
+        output: {
+            items: z.p.g.m._mod-butelka/12
+            fluids: water/3
+        }
+        craftTime: 60
+    },
+    {
+        input: {
+            items: z.p.g.m._mod-butelkal/12
+            power: 1.2
+        }
+        output: {
+            items: z.p.g.m._mod-butelka/12
+            fluids: cryofluid/3
+        }
+        craftTime: 60
+    },
+    {
+        input: {
+            items: z.p.g.m._mod-butelkar/12
+            power: 1.2
+        }
+        output: {
+            items: z.p.g.m._mod-butelka/12
+            fluids: oil/3
+        }
+        craftTime: 60
+    },
+    {
+        input: {
+            items: z.p.g.m._mod-butelkaz/12
+            power: 1.2
+        }
+        output: {
+            items: z.p.g.m._mod-butelka/12
+            fluids: slag/3
+        }
+        craftTime: 60
+    }
 ]
