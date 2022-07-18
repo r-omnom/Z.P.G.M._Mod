@@ -30,7 +30,7 @@ recipes: [
     {
         input: {
             items: z.p.g.m._mod-butelka/12
-            fluids: water/180
+            fluids: water/30
             power: 1.2,
         }
         output: {
@@ -41,11 +41,33 @@ recipes: [
     {
         input: {
             items: z.p.g.m._mod-butelka/12
-            fluids: cryofluid/180
+            fluids: cryofluid/30
             power: 1.2,
         }
         output: {
             items: z.p.g.m._mod-butelkal/12
+        }
+        craftTime: 60
+    },
+    {
+        input: {
+            items: z.p.g.m._mod-butelka/12
+            fluids: oil/30
+            power: 1.2,
+        }
+        output: {
+            items: z.p.g.m._mod-butelkar/12
+        }
+        craftTime: 60
+    },
+    {
+        input: {
+            items: z.p.g.m._mod-butelka/12
+            fluids: slag/30
+            power: 1.2,
+        }
+        output: {
+            items: z.p.g.m._mod-butelkaz/12
         }
         craftTime: 60
     },
