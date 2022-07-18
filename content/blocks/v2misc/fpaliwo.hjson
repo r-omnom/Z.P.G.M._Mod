@@ -3,7 +3,7 @@ name: Przetwórnia jądrowa
 description: Kompresuje i miesza radioaktywne składniki, uzyskując świetne paliwo jądrowe
 health: 800
 size: 2
-updateEffect: nuclearcloud
+updateEffect: reactorExplosion
 craftTime: 690
 hasItems: true
 itemCapacity: 32

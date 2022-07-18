@@ -3,7 +3,7 @@ name: Organiczny przetwarzacz
 description: Przetwarza i odzyskuje organiczną siarkę z zarodników.
 health: 500
 size: 2
-updateEffect: nuclearcloud
+updateEffect: reactorExplosion
 craftTime: 240
 hasItems: 10
 hasLiquid: 20

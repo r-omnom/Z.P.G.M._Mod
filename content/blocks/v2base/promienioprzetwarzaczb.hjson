@@ -26,7 +26,7 @@ nanoczesci/100
 mikroczip/10
 ]
 category: crafting
-updateEffect: nuclearcloud
+updateEffect: reactorExplosion
 updateEffectChance: 0.02
 outputLiquid: mrciecz/24
 research: {

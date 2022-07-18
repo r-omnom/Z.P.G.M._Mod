@@ -4,7 +4,7 @@ description: Zwiększa radioaktywność włókna fazowego i je przędzi. Nie wia
 drawer: DrawWeave
 health: 700
 size: 3
-updateEffect: nuclearcloud
+updateEffect: reactorExplosion
 craftTime: 420
 hasItems: true
 consumes: {
