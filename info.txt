@@ -1,1 +1,2 @@
 mod zalecany tylko do kampanii, szczególnie pod koniec
+obecnie trwają prace nad dostosowaniem bloków pod multibloki i v7
