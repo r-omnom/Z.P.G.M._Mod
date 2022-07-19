@@ -4,7 +4,7 @@ size: 2
 health: 350
 description: O wiele większy zasięg od mniejszego. Tekstura i pomysł: Stalker
 consumes:{
-//power: 1.5
+power: 1.5
 }
 requirements: [
   copper/150
