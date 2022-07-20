@@ -16,7 +16,7 @@ brightness: 0.75
 radius: 180
 category: effect
 research: {
-  parent: wytapiacz
+  parent: piecyk
   requirements: [
     copper/100
     lead/50
