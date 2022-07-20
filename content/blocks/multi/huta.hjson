@@ -8,9 +8,9 @@ health: 700
 category: crafting
 menu: detailed
 requirements: [
-  copper/120
+  miedzgraf/50
   graphite/40
-  titanium/60
+  braz/60
   silicon/40
   plastanium/60
   thorium/20
@@ -18,9 +18,9 @@ requirements: [
 research: {
   parent: wytapiacz
   requirements: [
-    copper/1200
+    miedzgraf/500
     graphite/400
-    titanium/600
+    braz/600
     silicon/400
     plastanium/600
     thorium/200
@@ -59,7 +59,7 @@ recipes: [
                 silicon/12
                 titanium/8
             ]
-            power: 3.5
+            power: 15
         }
         output: {
             items: surge-alloy/4
