@@ -1,0 +1,6 @@
+name: Brąz szklany
+description: Bardziej złożony i trudniejszy w wytworzeniu materiał budowlany, używany w większych strukturach.
+color: 000000
+research: {
+  parent: miedzgraf
+}

@@ -20,18 +20,18 @@ consumes: {
 }
 category: crafting
 requirements: [
-		copper/200
+		copper/70
 		lead/50
-		titanium/700
-		silicon/150
+		miedzgraf/120
+		silicon/40
 ]
 research: {
-  parent: wytapiacz
+  parent: piecyk
   requirements: [
-    copper/2000
+    copper/700
     lead/500
-    titanium/7000
-    silicon/1500
+    titanium/1200
+    silicon/400
   ]
 }
 ambientSound: plasmadrop

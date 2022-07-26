@@ -1,0 +1,53 @@
+localizedName: Mały Piec
+description: Piec pozwalający wytopić najbardziej podstawowe materiały budowlane. 
+type: multicraft.MultiCrafter
+liquidCapacity: 20
+itemCapacity: 20
+size: 2
+health: 200
+category: crafting
+menu: detailed
+requirements: [
+  copper/50
+  lead/45
+  graphite/20
+]
+research: {
+  parent: core-shard
+  requirements: [
+    copper/500
+    lead/450
+    graphite/200
+  ]
+}
+ambientSound: drill
+recipes: [
+    {
+        input: {
+            items: [
+                copper/3
+                graphite/2
+            ]
+            power: 2
+        }
+        output: {
+            items: z.p.g.m._mod-miedzgraf/2
+        }
+        craftTime: 150
+    },
+    {
+        input: {
+            items: [
+                copper/3
+                metaglass/2
+                titanium/3
+            ]
+            liquids: water/0.4
+            power: 5
+        }
+        output: {
+            items: z.p.g.m._mod-braz/1
+        }
+        craftTime: 90
+    },
+]

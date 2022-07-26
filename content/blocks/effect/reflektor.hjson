@@ -4,23 +4,23 @@ size: 1
 health: 100
 description: Ulepszone źródło światła. Tekstura i pomysł: Stalker
 consumes:{
-//power: 0.16
+power: 0.16
 }
 requirements: [
-  copper/50
-  lead/65
+  copper/10
+  lead/5
   metaglass/55
-  titanium/10
+  miedzgraf/5
 ]
 brightness: 0.75
 radius: 180
 category: effect
 research: {
-  parent: wytapiacz
+  parent: piecyk
   requirements: [
-    copper/500
-    lead/650
-    metaglass/550
-    titanium/100
+    copper/100
+    lead/50
+    metaglass/150
+    titanium/50
   ]
 }

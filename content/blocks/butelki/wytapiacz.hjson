@@ -5,7 +5,7 @@ health: 300
 size: 1
 updateEffect: hitBulletSmall
 craftTime: 300
-hasItems: 10
+itemCapacity: 10
 consumes: {
   power: 2
   items: {
@@ -17,16 +17,16 @@ consumes: {
 }
 category: crafting
 requirements: [
-		copper/50
+		copper/10
 		lead/10
-		titanium/15
+		miedzgraf/15
 ]
 research: {
-  parent: core-shard
+  parent: piecyk
   requirements: [
-    copper/500
+    copper/100
     lead/100
-    titanium/150
+    miedzgraf/150
   ]
 }
 ambientSound: drill
