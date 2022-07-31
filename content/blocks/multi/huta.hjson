@@ -37,7 +37,7 @@ recipes: [
             items: silicon/12
         }
         craftTime: 60
-    },
+    }
     {
         input: {
             items: [
@@ -50,7 +50,7 @@ recipes: [
             items: metaglass/12
         }
         craftTime: 120
-    },
+    }
     {
         input: {
             items: [
@@ -65,7 +65,7 @@ recipes: [
             items: surge-alloy/4
         }
         craftTime: 120
-    },
+    }
     {
         input: {
             items: [
@@ -78,5 +78,5 @@ recipes: [
             items: z.p.g.m._mod-butelka/12
         }
         craftTime: 60
-    },
+    }
 ]

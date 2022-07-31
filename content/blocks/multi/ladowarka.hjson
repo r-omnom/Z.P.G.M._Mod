@@ -31,7 +31,7 @@ recipes: [
             items: z.p.g.m._mod-baterian/3
         }
         craftTime: 600
-    },
+    }
     {
         input: {
             items: z.p.g.m._mod-baterian/3
@@ -41,7 +41,7 @@ recipes: [
             power: 5
         }
         craftTime: 600
-    },
+    }
     {
         input: {
             items: z.p.g.m._mod-baterian/3
@@ -52,5 +52,5 @@ recipes: [
             power: 10
         }
         craftTime: 300
-    },
+    }
 ]

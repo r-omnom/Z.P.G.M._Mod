@@ -34,7 +34,7 @@ recipes: [
             items: z.p.g.m._mod-miedzgraf/2
         }
         craftTime: 150
-    },
+    }
     {
         input: {
             items: [
@@ -49,5 +49,5 @@ recipes: [
             items: z.p.g.m._mod-braz/1
         }
         craftTime: 90
-    },
+    }
 ]
