@@ -11,6 +11,10 @@
 			{
 				"type": "DrawFrames",
 				"frames": 3
+			},
+			{
+				"type": "DrawRegion",
+				"region": "-top"
 			}
 		]
 	},

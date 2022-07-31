@@ -11,6 +11,10 @@ drawer: {
       type: DrawFrames
       frames: 3
     }
+    {
+      type: DrawRegion
+      suffix: "-top"
+    }
   ]
 }
 health: 1200
