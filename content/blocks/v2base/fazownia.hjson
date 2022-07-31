@@ -10,10 +10,6 @@ drawer: {
     {
       type: DrawWeave
     }
-    {
-      type: DrawRegion
-      suffix: "-bottom"
-    }
   ]
 }
 health: 700
