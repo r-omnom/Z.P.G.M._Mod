@@ -9,6 +9,7 @@ drawer: {
     }
     {
       type: DrawFrames
+      frames: 3
     }
   ]
 }

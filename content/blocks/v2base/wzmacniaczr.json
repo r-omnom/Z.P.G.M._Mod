@@ -9,7 +9,8 @@
 				"type": "DrawDefault"
 			},
 			{
-				"type": "DrawFrames"
+				"type": "DrawFrames",
+				"frames": 3
 			}
 		]
 	},
