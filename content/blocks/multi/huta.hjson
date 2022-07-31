@@ -6,7 +6,7 @@ itemCapacity: 36
 size: 4
 health: 700
 category: crafting
-menu: Detailed
+menu: detailed
 requirements: [
   miedzgraf/50
   graphite/40
