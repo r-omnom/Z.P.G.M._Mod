@@ -33,7 +33,7 @@ recipes: [
             items: z.p.g.m._mod-butelkaw/12
         }
         craftTime: 60
-    },
+    }
     {
         input: {
             items: z.p.g.m._mod-butelka/12
@@ -44,7 +44,7 @@ recipes: [
             items: z.p.g.m._mod-butelkal/12
         }
         craftTime: 60
-    },
+    }
     {
         input: {
             items: z.p.g.m._mod-butelka/12
@@ -55,7 +55,7 @@ recipes: [
             items: z.p.g.m._mod-butelkar/12
         }
         craftTime: 60
-    },
+    }
     {
         input: {
             items: z.p.g.m._mod-butelka/12
@@ -66,7 +66,7 @@ recipes: [
             items: z.p.g.m._mod-butelkaz/12
         }
         craftTime: 60
-    },
+    }
     # Unload
     {
         input: {
@@ -78,7 +78,7 @@ recipes: [
             fluids: water/3
         }
         craftTime: 60
-    },
+    }
     {
         input: {
             items: z.p.g.m._mod-butelkal/12
@@ -89,7 +89,7 @@ recipes: [
             fluids: cryofluid/3
         }
         craftTime: 60
-    },
+    }
     {
         input: {
             items: z.p.g.m._mod-butelkar/12
@@ -100,7 +100,7 @@ recipes: [
             fluids: oil/3
         }
         craftTime: 60
-    },
+    }
     {
         input: {
             items: z.p.g.m._mod-butelkaz/12

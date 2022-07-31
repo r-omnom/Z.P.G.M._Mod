@@ -1,10 +1,22 @@
 type: GenericCrafter
 name: ERROR
 description: TEGO BŁĘDU NIE IGNOROWAĆ, TYLKO UCIEKAĆ JAK NAJSZYBCIEJ SIĘ DA.
-drawer: [
-  DrawFrames
-  DrawDefault
-]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFrames
+      frames: 3
+    }
+    {
+      type: DrawRegion
+      suffix: "-top"
+    }
+  ]
+}
 health: 1200
 size: 4
 updateEffect: impactReactorExplosion

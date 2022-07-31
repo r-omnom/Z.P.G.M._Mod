@@ -1,10 +1,18 @@
 type: GenericCrafter
 name: Zderzacz cząsteczkowy
 description: Zderza ze sobą cząstki, w ich wyniku powstaje antymateria.
-drawer: [
-  DrawFrames
-  DrawDefault
-]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFrames
+      frames: 3
+    }
+  ]
+}
 health: 10000
 size: 10
 updateEffect: none
