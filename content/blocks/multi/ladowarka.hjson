@@ -2,7 +2,7 @@ localizedName: Ładowarka
 description: Blok mogący zarówno ładować, jak i odzyskać prąd z baterii. 
 type: multicraft.MultiCrafter
 itemCapacity: 15
-# liquidCapacity: 3
+liquidCapacity: 3
 size: 2
 health: 200
 category: crafting
