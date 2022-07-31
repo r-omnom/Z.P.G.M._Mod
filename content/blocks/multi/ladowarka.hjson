@@ -46,7 +46,7 @@ recipes: [
     {
         input: {
             items: z.p.g.m._mod-baterian/3
-            fluids: water/1
+            # fluids: water/1
         }
         output: {
             items: z.p.g.m._mod-bateria/3
