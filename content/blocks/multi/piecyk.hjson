@@ -6,7 +6,7 @@ itemCapacity: 20
 size: 2
 health: 200
 category: crafting
-menu: detailed
+menu: Detailed
 requirements: [
   copper/50
   lead/45
