@@ -1,5 +1,5 @@
 mod zalecany tylko do kampanii, szczególnie pod koniec
 obecnie trwają prace nad dostosowaniem bloków pod multibloki i v7
 poszukiwana osoba do spritingu
-sprites to do: ladowarka.hjson (content/blocks/multi)
-code to do: fix tech tree due to new multiblock and remove the old files
+sprites to do: ladowarka.hjson, reflektor.hjson, duzyreflektor.hjson, wychladzacz.hjson, titmetabig.hjson, titmetasmall.hjson, wytapiacz.hjson
+code to do: kolory miedziografku i brązu szklanego, multiblok: składacz, kompleks elektrotechniczny
