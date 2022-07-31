@@ -1,4 +1,4 @@
-localizedName: Charger
+localizedName: Ładowarka
 description: Blok mogący zarówno ładować, jak i odzyskać prąd z baterii.
 type: multicraft.MultiCrafter
 liquidCapacity: 90
