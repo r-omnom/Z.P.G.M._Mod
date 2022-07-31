@@ -6,7 +6,7 @@ liquidCapacity: 3
 size: 2
 health: 200
 category: crafting
-menu: Detailed
+menu: detailed
 requirements: [
   miedzgraf/150
   braz/60
