@@ -1,6 +1,23 @@
 name: Promieniomodyfikator
 description: Za pomocą radioaktywnej cieczy i kilku bryłek toru produkuje wzbogacony tor, mało efektywny.
 type: Separator
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawLiquidTile
+      drawLiquid: lrciecz 
+      # ciekawe czy zadziała
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: "-top"
+    }
+  ]
+}
 requirements: [
 copper/500
 lead/1500

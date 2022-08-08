@@ -1,6 +1,23 @@
 name: Ulepszony promieniomodyfikator
 description: Za pomocą radioaktywnej cieczy i kilku bryłek uranu produkuje wzbogacony uran.
 type: Separator
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawLiquidTile
+      drawLiquid: mrciecz
+      # ciekawe czy zadziała
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: "-top"
+    }
+  ]
+}
 requirements: [
 lead/800
 titanium/500
