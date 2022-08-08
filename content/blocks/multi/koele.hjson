@@ -1,0 +1,76 @@
+localizedName: Kompleks elektroniczny
+description: Zaawansowany zbiór fabryk, pozwalący wytwarzać złożone komponenty o wszechstronnym zastosowaniu.
+type: multicraft.MultiCrafter
+liquidCapacity: 180
+itemCapacity: 36
+size: 7
+health: 2400
+category: crafting
+menu: detailed
+requirements: [
+  miedzgraf/100
+  titanium/250
+  braz/550
+  silicon/300
+  nanoczesci/120
+]
+research: {
+  parent: skladacz
+  requirements: [
+    miedzgraf/1000
+    titanium/2500
+    braz/5500
+    silicon/3000
+    nanoczesci/1200
+  ]
+}
+ambientSound: drill
+recipes: [
+    {
+        input: {
+            items: [
+                copper/8
+                lead/20
+                titanium/5
+                silicon/3
+            ]
+            power: 3.1
+        }
+        output: {
+            items: z.p.g.m._mod-baterian/2
+        }
+        craftTime: 690
+    }
+    {
+        input: {
+            items: [
+                copper/3
+                silicon/10
+                z.p.g.m._mod-nanoczesci/2
+            ]
+            fluids: cryofluid/0.4
+            power: 7
+        }
+        output: {
+            items: z.p.g.m._mod-mikroczip/1
+        }
+        craftTime: 120
+    }
+    {
+        input: {
+            items: [
+                copper/5
+                titanium/12
+                silicon/15
+                z.p.g.m._mod-baterian/4
+                z.p.g.m._mod-nanoczesci/6
+                z.p.g.m._mod-mikroczip/2
+            ]
+            power: 15
+        }
+        output: {
+            items: z.p.g.m._mod-przekaznik/1
+        }
+        craftTime: 420
+    }
+]

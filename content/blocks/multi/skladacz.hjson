@@ -1,0 +1,56 @@
+localizedName: Składacz
+description: Składa drobne komponenty o wszechstronnym zastosowaniu
+type: multicraft.MultiCrafter
+liquidCapacity: 50
+itemCapacity: 36
+size: 5
+health: 1700
+category: crafting
+requirements: [
+  miedzgraf/120
+  titanium/200
+  braz/200
+  silicon/140
+]
+research: {
+  parent: ladowarka
+  requirements: [
+    miedzgraf/1200
+    titanium/2000
+    braz/2000
+    silicon/1400
+  ]
+}
+ambientSound: conveyor
+recipes: [
+    {
+        input: {
+            items: [
+                copper/2
+                titanium/9
+                z.p.g.m._mod-butelkar/2
+                z.p.g.m._mod-baterian/1
+            ]
+            power: 7
+        }
+        output: {
+            items: z.p.g.m._mod-nanoczesci/1
+        }
+        craftTime: 300
+    }
+    {
+        input: {
+            items: [
+            z.p.g.m._mod-butelkar/3
+            z.p.g.m._mod-butelkaw/4
+            z.p.g.m._mod-butelkaz/2
+            z.p.g.m._mod-siarka/2
+            ]
+            power: 4
+        }
+        output: {
+            items: z.p.g.m._mod-chemia/1
+        }
+        craftTime: 300
+    }
+]
