@@ -15,7 +15,7 @@ requirements: [
 ]
 category: power
 research: {
-  parent: radioteleskop
+  parent: koele
   requirements: [
     titanium/400
     plastanium/400
