@@ -189,7 +189,7 @@ requirements: [
 ]
 category: turret
 research: {
-  parent: radioteleskop
+  parent: koele
   requirements: [
     copper/56000
     lead/17000
