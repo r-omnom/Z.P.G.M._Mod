@@ -1,5 +1,5 @@
 name: Piętrowy magazyn
-description: Piętrowy tylko z nazwy, rzeczywiście jego pojemność bierze się z optymalizacji miejsca dzięki mikroprocesorom. Niestety nie zawiera dużej ilości punktów życia.
+description: Piętrowy tylko z nazwy, rzeczywiście jego pojemność bierze się z optymalizacji miejsca dzięki mikroprocesorom. Niestety nie jest zbyt wytrzymały. 
 type: StorageBlock
 itemCapacity: 5000
 hasItems: true
@@ -13,7 +13,7 @@ requirements: [
 ]
 category: "effect"
 research: {
-  parent: mikroprzetwarzacz
+  parent: koele
   requirements: [
     copper/2000
     titanium/8000
