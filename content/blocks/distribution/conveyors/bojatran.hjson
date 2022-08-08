@@ -16,7 +16,7 @@ placeableLiquid: true
 
 category: distribution
 research: {
-  parent: nanoskladacz
+  parent: skladacz
   requirements: [
     metaglass/20
     plastanium/20
