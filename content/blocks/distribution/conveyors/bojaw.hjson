@@ -17,7 +17,7 @@ placeableLiquid: true
 
 category: distribution
 research: {
-  parent: nanoskladacz
+  parent: skladacz
   requirements: [
     metaglass/20
     titanium/20
