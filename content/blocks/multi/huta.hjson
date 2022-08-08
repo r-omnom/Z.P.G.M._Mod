@@ -1,6 +1,59 @@
 localizedName: Huta
 description: Wielofunkcyjny piec z możliwością masowego wytapiania surowców.
 type: multicraft.MultiCrafter
+drawer: {
+    type: multicraft.DrawRecipe
+    drawers: [
+        {
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+        {
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+        {
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+        {
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawFlame
+                    color: ffef99
+                }
+            ]
+        }
+    ]
+}
 liquidCapacity: 180
 itemCapacity: 36
 size: 4
