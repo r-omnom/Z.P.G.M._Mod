@@ -8,36 +8,132 @@ drawer: {
     type: multicraft.DrawRecipe
     drawers: [
         {
-            type: DrawLiquidTile
-            drawLiquid: water
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawLiquidTile
+                    drawLiquid: water
+                }
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawRegion
+                    suffix: "-top"
+                }
+            ]
         }
         {
-            type: DrawLiquidTile
-            drawLiquid: cryofluid
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawLiquidTile
+                    drawLiquid: cryofluid
+                }
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawRegion
+                    suffix: "-top"
+                }
+            ]
         }
         {
-            type: DrawLiquidTile
-            drawLiquid: oil
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawLiquidTile
+                    drawLiquid: oil
+                }
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawRegion
+                    suffix: "-top"
+                }
+            ]
         }
         {
-            type: DrawLiquidTile
-            drawLiquid: slag
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawLiquidTile
+                    drawLiquid: slag
+                }
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawRegion
+                    suffix: "-top"
+                }
+            ]
         }
         {
-            type: DrawLiquidTile
-            drawLiquid: water
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawLiquidTile
+                    drawLiquid: water
+                }
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawRegion
+                    suffix: "-top"
+                }
+            ]
         }
         {
-            type: DrawLiquidTile
-            drawLiquid: cryofluid
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawLiquidTile
+                    drawLiquid: cryofluid
+                }
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawRegion
+                    suffix: "-top"
+                }
+            ]
         }
         {
-            type: DrawLiquidTile
-            drawLiquid: oil
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawLiquidTile
+                    drawLiquid: oil
+                }
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawRegion
+                    suffix: "-top"
+                }
+            ]
         }
         {
-            type: DrawLiquidTile
-            drawLiquid: slag
+            type: DrawMulti
+            drawers: [
+                {
+                    type: DrawLiquidTile
+                    drawLiquid: slag
+                }
+                {
+                    type: DrawDefault
+                }
+                {
+                    type: DrawRegion
+                    suffix: "-top"
+                }
+            ]
         }
     ]
 }
