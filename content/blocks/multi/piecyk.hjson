@@ -4,6 +4,19 @@ type: multicraft.MultiCrafter
 liquidCapacity: 20
 itemCapacity: 20
 size: 2
+drawer: {
+    type: multicraft.DrawRecipe
+    drawers: [
+        // test
+        # test
+        {
+            type: DrawArcSmelt
+        }
+        {
+            type: DrawDefault
+        }
+    ]
+}
 health: 200
 category: crafting
 menu: detailed
