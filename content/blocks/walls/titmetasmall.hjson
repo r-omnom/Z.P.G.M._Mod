@@ -1,0 +1,17 @@
+type: Wall
+name: Mała szklano-tytanowa ściana
+description: Mała ściana 1x1, mocniejsza dzięki większej ilości tytanu i dodaniu metaszkła.
+health: 500
+size: 1
+requirements: [
+  metaglass/4
+  titanium/8
+]
+category: defense
+research: {
+  parent: wytapiacz
+  requirements: [
+    metaglass/40
+    titanium/80
+  ]
+}

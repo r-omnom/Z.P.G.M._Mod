@@ -1,0 +1,17 @@
+type: Wall
+name: Duża szklano-tytanowa ściana
+description: Ściana 2x2, mocniejsza dzięki większej ilości tytanu i dodaniu metaszkła. Obejmuje wiele kratek.
+health: 2000
+size: 2
+requirements: [
+  metaglass/16
+  titanium/24
+]
+category: defense
+research: {
+  parent: titmetasmall
+  requirements: [
+    metaglass/160
+    titanium/240
+  ]
+}
