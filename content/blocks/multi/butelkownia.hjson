@@ -11,6 +11,10 @@ drawer: {
             type: DrawMulti
             drawers: [
                 {
+                    type: DrawRegion
+                    suffix: "-bottom"
+                }
+                {
                     type: DrawLiquidTile
                     drawLiquid: water
                 }
@@ -26,6 +30,10 @@ drawer: {
         {
             type: DrawMulti
             drawers: [
+                {
+                    type: DrawRegion
+                    suffix: "-bottom"
+                }
                 {
                     type: DrawLiquidTile
                     drawLiquid: cryofluid
@@ -43,6 +51,10 @@ drawer: {
             type: DrawMulti
             drawers: [
                 {
+                    type: DrawRegion
+                    suffix: "-bottom"
+                }
+                {
                     type: DrawLiquidTile
                     drawLiquid: oil
                 }
@@ -58,6 +70,10 @@ drawer: {
         {
             type: DrawMulti
             drawers: [
+                {
+                    type: DrawRegion
+                    suffix: "-bottom"
+                }
                 {
                     type: DrawLiquidTile
                     drawLiquid: slag
@@ -75,6 +91,10 @@ drawer: {
             type: DrawMulti
             drawers: [
                 {
+                    type: DrawRegion
+                    suffix: "-bottom"
+                }
+                {
                     type: DrawLiquidTile
                     drawLiquid: water
                 }
@@ -90,6 +110,10 @@ drawer: {
         {
             type: DrawMulti
             drawers: [
+                {
+                    type: DrawRegion
+                    suffix: "-bottom"
+                }
                 {
                     type: DrawLiquidTile
                     drawLiquid: cryofluid
@@ -107,6 +131,10 @@ drawer: {
             type: DrawMulti
             drawers: [
                 {
+                    type: DrawRegion
+                    suffix: "-bottom"
+                }
+                {
                     type: DrawLiquidTile
                     drawLiquid: oil
                 }
@@ -122,6 +150,10 @@ drawer: {
         {
             type: DrawMulti
             drawers: [
+                {
+                    type: DrawRegion
+                    suffix: "-bottom"
+                }
                 {
                     type: DrawLiquidTile
                     drawLiquid: slag
