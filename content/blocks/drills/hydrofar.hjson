@@ -39,3 +39,21 @@ research: {
 ambientSound: techloop
 ambientSoundVolume: 0.5
 outputItem: spore-pod/3
+//Świre tu był
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawLiquidTile
+      liquid: water
+      //W celu zamalowania wyznaczonego regionu przez teksture "-liquid" należy użyć DrawLiquidRegion, minus taki, iż ciecz nie jest animowana.
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      //To od ognia
+    }
+  ]
+}

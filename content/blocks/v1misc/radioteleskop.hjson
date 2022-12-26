@@ -49,3 +49,15 @@ research: {
 ambientSound: techloop
 ambientSoundVolume: 2
 outputItem: przekaznik/1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      //Robi to ten łogień nad blokiem
+    }
+  ]
+}

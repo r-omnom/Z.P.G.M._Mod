@@ -41,3 +41,16 @@ research: {
 ambientSound: techloop
 ambientSoundVolume: 1
 outputItem: uran/3
+//Tutaj zaczyna się ingerencja sił dzbanowych
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      //Tak jak miał GenericSmelter
+    }
+  ]
+}
