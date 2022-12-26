@@ -45,7 +45,7 @@ drawer: {
   drawers: [
     {
       type: DrawLiquidTile
-      liquid: water
+      drawLiquid: water
       //W celu zamalowania wyznaczonego regionu przez teksture "-liquid" należy użyć DrawLiquidRegion, minus taki, iż ciecz nie jest animowana.
     }
     {

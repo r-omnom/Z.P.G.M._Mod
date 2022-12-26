@@ -3,7 +3,7 @@ name: Radioteleskop
 description: Odbiera sygnały z kwatery głównej, potrafi wytworzyć uniwersalną technologię dalekiego przesyłu.
 health: 1500
 size: 4
-updateEffect: lancerLaserShoot
+updateEffect: lancerLaserCharge
 craftTime: 600
 hasItems: true
 itemCapacity: 20
