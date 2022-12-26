@@ -39,15 +39,9 @@ research: {
 ambientSound: techloop
 ambientSoundVolume: 0.5
 outputItem: spore-pod/3
-//Świre tu był
 drawer: {
   type: DrawMulti
   drawers: [
-    {
-      type: DrawLiquidRegion
-      drawLiquid: water
-      //W celu zamalowania całego bloku wraz z animacją cieczy, należy użyć DrawLiquidTile minus taki, iż blok jednak tej cieczy do działania wymaga.
-    }
     {
       type: DrawDefault
     }
