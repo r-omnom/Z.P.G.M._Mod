@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Radioteleskop
 description: Odbiera sygnały z kwatery głównej, potrafi wytworzyć uniwersalną technologię dalekiego przesyłu.
 health: 1500

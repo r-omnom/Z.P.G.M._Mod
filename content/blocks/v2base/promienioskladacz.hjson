@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Promienioskładacz
 description: Za pomocą promieniowania z wzbogaconego toru wytwarza uran, jedyna możliwość jego pozyskania na Serpulo.
 health: 2000
