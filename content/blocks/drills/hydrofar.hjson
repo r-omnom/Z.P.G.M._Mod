@@ -44,9 +44,9 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawLiquidTile
+      type: DrawLiquidRegion
       drawLiquid: water
-      //W celu zamalowania wyznaczonego regionu przez teksture "-liquid" należy użyć DrawLiquidRegion, minus taki, iż ciecz nie jest animowana.
+      //W celu zamalowania całego bloku wraz z animacją cieczy, należy użyć DrawLiquidTile minus taki, iż blok jednak tej cieczy do działania wymaga.
     }
     {
       type: DrawDefault
