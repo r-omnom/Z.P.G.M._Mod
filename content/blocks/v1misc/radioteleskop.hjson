@@ -1,9 +1,9 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Radioteleskop
 description: Odbiera sygnały z kwatery głównej, potrafi wytworzyć uniwersalną technologię dalekiego przesyłu.
 health: 1500
 size: 4
-updateEffect: purify
+updateEffect: lancerLaserCharge
 craftTime: 600
 hasItems: true
 itemCapacity: 20
@@ -49,3 +49,15 @@ research: {
 ambientSound: techloop
 ambientSoundVolume: 2
 outputItem: przekaznik/1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      //Robi to ten łogień nad blokiem
+    }
+  ]
+}

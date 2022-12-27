@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Monter rakiet torowo-burzących
 description: Montuje rakiety dostosowane specjalnie dla NWR. 
 health: 700
@@ -38,3 +38,14 @@ research: {
 ambientSound: drill
 ambientSoundVolume: 2
 outputItem: rtobu/4
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+    }
+  ]
+}

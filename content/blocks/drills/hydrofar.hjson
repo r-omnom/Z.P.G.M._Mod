@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: AttributeCrafter
 name: Hydrofarma zarodników
 description: Dzięki przekaźnikowi jest w stanie przewidzieć pogodę. Używa mikroczipów do zapewnienia optimum dla zarodników. Ekstremalnie efektowne. Zalecane zasilanie pompą termalną.
 health: 800
@@ -6,6 +6,7 @@ size: 3
 updateEffect: sapped
 craftTime: 10
 hasItems: 10
+attribute: spores
 hasLiquid: 20
 consumes: {
   power: 2
@@ -38,3 +39,15 @@ research: {
 ambientSound: techloop
 ambientSoundVolume: 0.5
 outputItem: spore-pod/3
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      //To od ognia
+    }
+  ]
+}
