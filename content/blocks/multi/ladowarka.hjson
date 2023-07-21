@@ -24,31 +24,31 @@ ambientSound: drill
 recipes: [
     {
         input: {
-            items: z.p.g.m._mod-bateria/3
+            items: zpgm-mod-bateria/3
             power: 5
         }
         output: {
-            items: z.p.g.m._mod-baterian/3
+            items: zpgm-mod-baterian/3
         }
         craftTime: 600
     }
     {
         input: {
-            items: z.p.g.m._mod-baterian/3
+            items: zpgm-mod-baterian/3
         }
         output: {
-            items: z.p.g.m._mod-bateria/3
+            items: zpgm-mod-bateria/3
             power: 5
         }
         craftTime: 600
     }
     {
         input: {
-            items: z.p.g.m._mod-baterian/3
+            items: zpgm-mod-baterian/3
             fluids: water/1
         }
         output: {
-            items: z.p.g.m._mod-bateria/3
+            items: zpgm-mod-bateria/3
             power: 10
         }
         craftTime: 300

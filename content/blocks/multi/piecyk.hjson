@@ -31,7 +31,7 @@ recipes: [
             power: 2
         }
         output: {
-            items: z.p.g.m._mod-miedzgraf/2
+            items: zpgm-mod-miedzgraf/2
         }
         craftTime: 150
     }
@@ -46,7 +46,7 @@ recipes: [
             power: 5
         }
         output: {
-            items: z.p.g.m._mod-braz/1
+            items: zpgm-mod-braz/1
         }
         craftTime: 90
     }
