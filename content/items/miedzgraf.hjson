@@ -1,6 +1,6 @@
 name: Miedziografek
 description: Podstawowy, choć nieco mocniejszy materiał budowlany
-color: 000000
+color: eac2a9
 research: {
   parent: piecyk
 }

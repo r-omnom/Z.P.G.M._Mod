@@ -28,28 +28,28 @@ recipes: [
             items: [
                 copper/2
                 titanium/9
-                z.p.g.m._mod-butelkar/2
-                z.p.g.m._mod-baterian/1
+                zpgm-mod-butelkar/2
+                zpgm-mod-baterian/1
             ]
             power: 7
         }
         output: {
-            items: z.p.g.m._mod-nanoczesci/1
+            items: zpgm-mod-nanoczesci/1
         }
         craftTime: 300
     }
     {
         input: {
             items: [
-            z.p.g.m._mod-butelkar/3
-            z.p.g.m._mod-butelkaw/4
-            z.p.g.m._mod-butelkaz/2
-            z.p.g.m._mod-siarka/2
+            zpgm-mod-butelkar/3
+            zpgm-mod-butelkaw/4
+            zpgm-mod-butelkaz/2
+            zpgm-mod-siarka/2
             ]
             power: 4
         }
         output: {
-            items: z.p.g.m._mod-chemia/1
+            items: zpgm-mod-chemia/1
         }
         craftTime: 300
     }

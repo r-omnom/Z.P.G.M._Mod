@@ -37,7 +37,7 @@ recipes: [
             power: 3.1
         }
         output: {
-            items: z.p.g.m._mod-baterian/2
+            items: zpgm-mod-baterian/2
         }
         craftTime: 690
     }
@@ -46,13 +46,13 @@ recipes: [
             items: [
                 copper/3
                 silicon/10
-                z.p.g.m._mod-nanoczesci/2
+                zpgm-mod-nanoczesci/2
             ]
             fluids: cryofluid/0.4
             power: 7
         }
         output: {
-            items: z.p.g.m._mod-mikroczip/1
+            items: zpgm-mod-mikroczip/1
         }
         craftTime: 120
     }
@@ -62,14 +62,14 @@ recipes: [
                 copper/5
                 titanium/12
                 silicon/15
-                z.p.g.m._mod-baterian/4
-                z.p.g.m._mod-nanoczesci/6
-                z.p.g.m._mod-mikroczip/2
+                zpgm-mod-baterian/4
+                zpgm-mod-nanoczesci/6
+                zpgm-mod-mikroczip/2
             ]
             power: 15
         }
         output: {
-            items: z.p.g.m._mod-przekaznik/1
+            items: zpgm-mod-przekaznik/1
         }
         craftTime: 420
     }

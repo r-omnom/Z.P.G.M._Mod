@@ -2,5 +2,5 @@ mod zalecany tylko do kampanii, szczególnie pod koniec
 obecnie trwają prace nad dostosowaniem bloków pod multibloki i v7
 poszukiwana osoba do spritingu
 sprites to do: wytwarzaczb.hjson, koele.hjson
-code to do: kolory miedziografku i brązu szklanego, multiblok: monter amunicji, kompleks chemiczny
+code to do: multiblok: monter amunicji, kompleks chemiczny
 do następnego release cała zawartość z v1 powinna być oteksturowana podstawowo, a także zbalansowana i przystosowana do multicrafterow

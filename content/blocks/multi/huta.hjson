@@ -128,7 +128,7 @@ recipes: [
             power: 1.2
         }
         output: {
-            items: z.p.g.m._mod-butelka/12
+            items: zpgm-mod-butelka/12
         }
         craftTime: 60
     }
